@@ -1,0 +1,4262 @@
+@charset "UTF-8";
+.rozetta-translator-tool,
+.rozetta-editor {
+  /*! Spectre.css v0.5.9 | MIT License | github.com/picturepan2/spectre */
+  /* Manually forked from Normalize.css */
+  /* normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+  /**
+   * 1. Change the default font family in all browsers (opinionated).
+   * 2. Correct the line height in all browsers.
+   * 3. Prevent adjustments of font size after orientation changes in
+   *    IE on Windows Phone and in iOS.
+   */
+  /* Document
+     ========================================================================== */
+  /* Sections
+     ========================================================================== */
+  /**
+   * Remove the margin in all browsers (opinionated).
+   */
+  /**
+   * Add the correct display in IE 9-.
+   */
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  /* Grouping content
+     ========================================================================== */
+  /**
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in IE.
+   */
+  /**
+   * Add the correct margin in IE 8 (removed).
+   */
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers. (removed)
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  /* Text-level semantics
+     ========================================================================== */
+  /**
+   * 1. Remove the gray background on active links in IE 10.
+   * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+   */
+  /**
+   * Remove the outline on focused links when they are also active or hovered
+   * in all browsers (opinionated).
+   */
+  /**
+   * Modify default styling of address.
+   */
+  /**
+   * 1. Remove the bottom border in Firefox 39-.
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari. (removed)
+   */
+  /**
+   * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+   */
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  /**
+   * Add the correct font style in Android 4.3-.
+   */
+  /**
+   * Add the correct background and color in IE 9-. (Removed)
+   */
+  /**
+   * Add the correct font size in all browsers.
+   */
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  /* Embedded content
+     ========================================================================== */
+  /**
+   * Add the correct display in IE 9-.
+   */
+  /**
+   * Add the correct display in iOS 4-7.
+   */
+  /**
+   * Remove the border on images inside links in IE 10-.
+   */
+  /**
+   * Hide the overflow in IE.
+   */
+  /* Forms
+     ========================================================================== */
+  /**
+   * 1. Change the font styles in all browsers (opinionated).
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  /**
+   * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+   *    controls in Android 4.
+   * 2. Correct the inability to style clickable types in iOS and Safari.
+   */
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  /**
+   * Restore the focus styles unset by the previous rule (removed).
+   */
+  /**
+   * Change the border, margin, and padding in all browsers (opinionated) (changed).
+   */
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  /**
+   * 1. Add the correct display in IE 9-.
+   * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  /**
+   * Remove the default vertical scrollbar in IE.
+   */
+  /**
+   * 1. Add the correct box sizing in IE 10-.
+   * 2. Remove the padding in IE 10-.
+   */
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  /**
+   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+   */
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  /* Interactive
+     ========================================================================== */
+  /*
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in Edge, IE, and Firefox.
+   */
+  /*
+   * Add the correct display in all browsers.
+   */
+  /* Scripting
+     ========================================================================== */
+  /**
+   * Add the correct display in IE 9-.
+   */
+  /**
+   * Add the correct display in IE.
+   */
+  /* Hidden
+     ========================================================================== */
+  /**
+   * Add the correct display in IE 10-.
+   */
+  font-family: Yuanti SC;
+  box-sizing: border-box;
+}
+.rozetta-translator-tool html,
+.rozetta-editor html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+}
+.rozetta-translator-tool body,
+.rozetta-editor body {
+  margin: 0;
+}
+.rozetta-translator-tool article,
+.rozetta-translator-tool aside,
+.rozetta-translator-tool footer,
+.rozetta-translator-tool header,
+.rozetta-translator-tool nav,
+.rozetta-translator-tool section,
+.rozetta-editor article,
+.rozetta-editor aside,
+.rozetta-editor footer,
+.rozetta-editor header,
+.rozetta-editor nav,
+.rozetta-editor section {
+  display: block;
+}
+.rozetta-translator-tool h1,
+.rozetta-editor h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.rozetta-translator-tool figcaption,
+.rozetta-translator-tool figure,
+.rozetta-translator-tool main,
+.rozetta-editor figcaption,
+.rozetta-editor figure,
+.rozetta-editor main {
+  /* 1 */
+  display: block;
+}
+.rozetta-translator-tool hr,
+.rozetta-editor hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+.rozetta-translator-tool a,
+.rozetta-editor a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+.rozetta-translator-tool a:active,
+.rozetta-translator-tool a:hover,
+.rozetta-editor a:active,
+.rozetta-editor a:hover {
+  outline-width: 0;
+}
+.rozetta-translator-tool address,
+.rozetta-editor address {
+  font-style: normal;
+}
+.rozetta-translator-tool b,
+.rozetta-translator-tool strong,
+.rozetta-editor b,
+.rozetta-editor strong {
+  font-weight: inherit;
+}
+.rozetta-translator-tool b,
+.rozetta-translator-tool strong,
+.rozetta-editor b,
+.rozetta-editor strong {
+  font-weight: bolder;
+}
+.rozetta-translator-tool code,
+.rozetta-translator-tool kbd,
+.rozetta-translator-tool pre,
+.rozetta-translator-tool samp,
+.rozetta-editor code,
+.rozetta-editor kbd,
+.rozetta-editor pre,
+.rozetta-editor samp {
+  font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
+  /* 1 (changed) */
+  font-size: 1em;
+  /* 2 */
+}
+.rozetta-translator-tool dfn,
+.rozetta-editor dfn {
+  font-style: italic;
+}
+.rozetta-translator-tool small,
+.rozetta-editor small {
+  font-size: 80%;
+  font-weight: 400;
+  /* (added) */
+}
+.rozetta-translator-tool sub,
+.rozetta-translator-tool sup,
+.rozetta-editor sub,
+.rozetta-editor sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.rozetta-translator-tool sub,
+.rozetta-editor sub {
+  bottom: -0.25em;
+}
+.rozetta-translator-tool sup,
+.rozetta-editor sup {
+  top: -0.5em;
+}
+.rozetta-translator-tool audio,
+.rozetta-translator-tool video,
+.rozetta-editor audio,
+.rozetta-editor video {
+  display: inline-block;
+}
+.rozetta-translator-tool audio:not([controls]),
+.rozetta-editor audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.rozetta-translator-tool img,
+.rozetta-editor img {
+  border-style: none;
+}
+.rozetta-translator-tool svg:not(:root),
+.rozetta-editor svg:not(:root) {
+  overflow: hidden;
+}
+.rozetta-translator-tool button,
+.rozetta-translator-tool input,
+.rozetta-translator-tool optgroup,
+.rozetta-translator-tool select,
+.rozetta-translator-tool textarea,
+.rozetta-editor button,
+.rozetta-editor input,
+.rozetta-editor optgroup,
+.rozetta-editor select,
+.rozetta-editor textarea {
+  font-family: inherit;
+  /* 1 (changed) */
+  font-size: inherit;
+  /* 1 (changed) */
+  line-height: inherit;
+  /* 1 (changed) */
+  margin: 0;
+  /* 2 */
+}
+.rozetta-translator-tool button,
+.rozetta-translator-tool input,
+.rozetta-editor button,
+.rozetta-editor input {
+  /* 1 */
+  overflow: visible;
+}
+.rozetta-translator-tool button,
+.rozetta-translator-tool select,
+.rozetta-editor button,
+.rozetta-editor select {
+  /* 1 */
+  text-transform: none;
+}
+.rozetta-translator-tool button,
+.rozetta-translator-tool html [type=button],
+.rozetta-translator-tool [type=reset],
+.rozetta-translator-tool [type=submit],
+.rozetta-editor button,
+.rozetta-editor html [type=button],
+.rozetta-editor [type=reset],
+.rozetta-editor [type=submit] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+.rozetta-translator-tool button::-moz-focus-inner,
+.rozetta-translator-tool [type=button]::-moz-focus-inner,
+.rozetta-translator-tool [type=reset]::-moz-focus-inner,
+.rozetta-translator-tool [type=submit]::-moz-focus-inner,
+.rozetta-editor button::-moz-focus-inner,
+.rozetta-editor [type=button]::-moz-focus-inner,
+.rozetta-editor [type=reset]::-moz-focus-inner,
+.rozetta-editor [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+.rozetta-translator-tool fieldset,
+.rozetta-editor fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.rozetta-translator-tool legend,
+.rozetta-editor legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+.rozetta-translator-tool progress,
+.rozetta-editor progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+.rozetta-translator-tool textarea,
+.rozetta-editor textarea {
+  overflow: auto;
+}
+.rozetta-translator-tool [type=checkbox],
+.rozetta-translator-tool [type=radio],
+.rozetta-editor [type=checkbox],
+.rozetta-editor [type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+.rozetta-translator-tool [type=number]::-webkit-inner-spin-button,
+.rozetta-translator-tool [type=number]::-webkit-outer-spin-button,
+.rozetta-editor [type=number]::-webkit-inner-spin-button,
+.rozetta-editor [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+.rozetta-translator-tool [type=search],
+.rozetta-editor [type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+.rozetta-translator-tool [type=search]::-webkit-search-cancel-button,
+.rozetta-translator-tool [type=search]::-webkit-search-decoration,
+.rozetta-editor [type=search]::-webkit-search-cancel-button,
+.rozetta-editor [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.rozetta-translator-tool ::-webkit-file-upload-button,
+.rozetta-editor ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+.rozetta-translator-tool details,
+.rozetta-translator-tool menu,
+.rozetta-editor details,
+.rozetta-editor menu {
+  display: block;
+}
+.rozetta-translator-tool summary,
+.rozetta-editor summary {
+  display: list-item;
+  outline: none;
+}
+.rozetta-translator-tool canvas,
+.rozetta-editor canvas {
+  display: inline-block;
+}
+.rozetta-translator-tool template,
+.rozetta-editor template {
+  display: none;
+}
+.rozetta-translator-tool [hidden],
+.rozetta-editor [hidden] {
+  display: none;
+}
+.rozetta-translator-tool *,
+.rozetta-translator-tool *::before,
+.rozetta-translator-tool *::after,
+.rozetta-editor *,
+.rozetta-editor *::before,
+.rozetta-editor *::after {
+  box-sizing: inherit;
+}
+.rozetta-translator-tool html,
+.rozetta-editor html {
+  box-sizing: border-box;
+  font-size: 20px;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+}
+.rozetta-translator-tool body,
+.rozetta-editor body {
+  background: #fff;
+  color: #3b4351;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 0.8rem;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+.rozetta-translator-tool a,
+.rozetta-editor a {
+  color: #5755d9;
+  outline: none;
+  text-decoration: none;
+}
+.rozetta-translator-tool a:focus,
+.rozetta-editor a:focus {
+  box-shadow: 0 0 0 0.1rem rgba(87, 85, 217, 0.2);
+}
+.rozetta-translator-tool a:focus, .rozetta-translator-tool a:hover, .rozetta-translator-tool a:active, .rozetta-translator-tool a.active,
+.rozetta-editor a:focus,
+.rozetta-editor a:hover,
+.rozetta-editor a:active,
+.rozetta-editor a.active {
+  color: #302ecd;
+  text-decoration: underline;
+}
+.rozetta-translator-tool a:visited,
+.rozetta-editor a:visited {
+  color: #807fe2;
+}
+.rozetta-translator-tool h1,
+.rozetta-translator-tool h2,
+.rozetta-translator-tool h3,
+.rozetta-translator-tool h4,
+.rozetta-translator-tool h5,
+.rozetta-translator-tool h6,
+.rozetta-editor h1,
+.rozetta-editor h2,
+.rozetta-editor h3,
+.rozetta-editor h4,
+.rozetta-editor h5,
+.rozetta-editor h6 {
+  color: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  margin-top: 0;
+}
+.rozetta-translator-tool .h1,
+.rozetta-translator-tool .h2,
+.rozetta-translator-tool .h3,
+.rozetta-translator-tool .h4,
+.rozetta-translator-tool .h5,
+.rozetta-translator-tool .h6,
+.rozetta-editor .h1,
+.rozetta-editor .h2,
+.rozetta-editor .h3,
+.rozetta-editor .h4,
+.rozetta-editor .h5,
+.rozetta-editor .h6 {
+  font-weight: 500;
+}
+.rozetta-translator-tool h1,
+.rozetta-translator-tool .h1,
+.rozetta-editor h1,
+.rozetta-editor .h1 {
+  font-size: 2rem;
+}
+.rozetta-translator-tool h2,
+.rozetta-translator-tool .h2,
+.rozetta-editor h2,
+.rozetta-editor .h2 {
+  font-size: 1.6rem;
+}
+.rozetta-translator-tool h3,
+.rozetta-translator-tool .h3,
+.rozetta-editor h3,
+.rozetta-editor .h3 {
+  font-size: 1.4rem;
+}
+.rozetta-translator-tool h4,
+.rozetta-translator-tool .h4,
+.rozetta-editor h4,
+.rozetta-editor .h4 {
+  font-size: 1.2rem;
+}
+.rozetta-translator-tool h5,
+.rozetta-translator-tool .h5,
+.rozetta-editor h5,
+.rozetta-editor .h5 {
+  font-size: 1rem;
+}
+.rozetta-translator-tool h6,
+.rozetta-translator-tool .h6,
+.rozetta-editor h6,
+.rozetta-editor .h6 {
+  font-size: 0.8rem;
+}
+.rozetta-translator-tool p,
+.rozetta-editor p {
+  margin: 0 0 1.2rem;
+}
+.rozetta-translator-tool a,
+.rozetta-translator-tool ins,
+.rozetta-translator-tool u,
+.rozetta-editor a,
+.rozetta-editor ins,
+.rozetta-editor u {
+  text-decoration-skip: ink edges;
+}
+.rozetta-translator-tool abbr[title],
+.rozetta-editor abbr[title] {
+  border-bottom: 0.05rem dotted;
+  cursor: help;
+  text-decoration: none;
+}
+.rozetta-translator-tool kbd,
+.rozetta-editor kbd {
+  border-radius: 0.1rem;
+  line-height: 1.25;
+  padding: 0.1rem 0.2rem;
+  background: #303742;
+  color: #fff;
+  font-size: 0.7rem;
+}
+.rozetta-translator-tool mark,
+.rozetta-editor mark {
+  background: #ffe9b3;
+  color: #3b4351;
+  border-bottom: 0.05rem solid #ffd367;
+  border-radius: 0.1rem;
+  padding: 0.05rem 0.1rem 0;
+}
+.rozetta-translator-tool blockquote,
+.rozetta-editor blockquote {
+  border-left: 0.1rem solid #dadee4;
+  margin-left: 0;
+  padding: 0.4rem 0.8rem;
+}
+.rozetta-translator-tool blockquote p:last-child,
+.rozetta-editor blockquote p:last-child {
+  margin-bottom: 0;
+}
+.rozetta-translator-tool ul,
+.rozetta-translator-tool ol,
+.rozetta-editor ul,
+.rozetta-editor ol {
+  margin: 0.8rem 0 0.8rem 0.8rem;
+  padding: 0;
+}
+.rozetta-translator-tool ul ul,
+.rozetta-translator-tool ul ol,
+.rozetta-translator-tool ol ul,
+.rozetta-translator-tool ol ol,
+.rozetta-editor ul ul,
+.rozetta-editor ul ol,
+.rozetta-editor ol ul,
+.rozetta-editor ol ol {
+  margin: 0.8rem 0 0.8rem 0.8rem;
+}
+.rozetta-translator-tool ul li,
+.rozetta-translator-tool ol li,
+.rozetta-editor ul li,
+.rozetta-editor ol li {
+  margin-top: 0.4rem;
+}
+.rozetta-translator-tool ul,
+.rozetta-editor ul {
+  list-style: disc inside;
+}
+.rozetta-translator-tool ul ul,
+.rozetta-editor ul ul {
+  list-style-type: circle;
+}
+.rozetta-translator-tool ol,
+.rozetta-editor ol {
+  list-style: decimal inside;
+}
+.rozetta-translator-tool ol ol,
+.rozetta-editor ol ol {
+  list-style-type: lower-alpha;
+}
+.rozetta-translator-tool dl dt,
+.rozetta-editor dl dt {
+  font-weight: bold;
+}
+.rozetta-translator-tool dl dd,
+.rozetta-editor dl dd {
+  margin: 0.4rem 0 0.8rem 0;
+}
+.rozetta-translator-tool html:lang(zh),
+.rozetta-translator-tool html:lang(zh-Hans),
+.rozetta-translator-tool .lang-zh,
+.rozetta-translator-tool .lang-zh-hans,
+.rozetta-editor html:lang(zh),
+.rozetta-editor html:lang(zh-Hans),
+.rozetta-editor .lang-zh,
+.rozetta-editor .lang-zh-hans {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+}
+.rozetta-translator-tool html:lang(zh-Hant),
+.rozetta-translator-tool .lang-zh-hant,
+.rozetta-editor html:lang(zh-Hant),
+.rozetta-editor .lang-zh-hant {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
+}
+.rozetta-translator-tool html:lang(ja),
+.rozetta-translator-tool .lang-ja,
+.rozetta-editor html:lang(ja),
+.rozetta-editor .lang-ja {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, "Helvetica Neue", sans-serif;
+}
+.rozetta-translator-tool html:lang(ko),
+.rozetta-translator-tool .lang-ko,
+.rozetta-editor html:lang(ko),
+.rozetta-editor .lang-ko {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Malgun Gothic", "Helvetica Neue", sans-serif;
+}
+.rozetta-translator-tool :lang(zh) ins,
+.rozetta-translator-tool :lang(zh) u,
+.rozetta-translator-tool :lang(ja) ins,
+.rozetta-translator-tool :lang(ja) u,
+.rozetta-translator-tool .lang-cjk ins,
+.rozetta-translator-tool .lang-cjk u,
+.rozetta-editor :lang(zh) ins,
+.rozetta-editor :lang(zh) u,
+.rozetta-editor :lang(ja) ins,
+.rozetta-editor :lang(ja) u,
+.rozetta-editor .lang-cjk ins,
+.rozetta-editor .lang-cjk u {
+  border-bottom: 0.05rem solid;
+  text-decoration: none;
+}
+.rozetta-translator-tool :lang(zh) del + del,
+.rozetta-translator-tool :lang(zh) del + s,
+.rozetta-translator-tool :lang(zh) ins + ins,
+.rozetta-translator-tool :lang(zh) ins + u,
+.rozetta-translator-tool :lang(zh) s + del,
+.rozetta-translator-tool :lang(zh) s + s,
+.rozetta-translator-tool :lang(zh) u + ins,
+.rozetta-translator-tool :lang(zh) u + u,
+.rozetta-translator-tool :lang(ja) del + del,
+.rozetta-translator-tool :lang(ja) del + s,
+.rozetta-translator-tool :lang(ja) ins + ins,
+.rozetta-translator-tool :lang(ja) ins + u,
+.rozetta-translator-tool :lang(ja) s + del,
+.rozetta-translator-tool :lang(ja) s + s,
+.rozetta-translator-tool :lang(ja) u + ins,
+.rozetta-translator-tool :lang(ja) u + u,
+.rozetta-translator-tool .lang-cjk del + del,
+.rozetta-translator-tool .lang-cjk del + s,
+.rozetta-translator-tool .lang-cjk ins + ins,
+.rozetta-translator-tool .lang-cjk ins + u,
+.rozetta-translator-tool .lang-cjk s + del,
+.rozetta-translator-tool .lang-cjk s + s,
+.rozetta-translator-tool .lang-cjk u + ins,
+.rozetta-translator-tool .lang-cjk u + u,
+.rozetta-editor :lang(zh) del + del,
+.rozetta-editor :lang(zh) del + s,
+.rozetta-editor :lang(zh) ins + ins,
+.rozetta-editor :lang(zh) ins + u,
+.rozetta-editor :lang(zh) s + del,
+.rozetta-editor :lang(zh) s + s,
+.rozetta-editor :lang(zh) u + ins,
+.rozetta-editor :lang(zh) u + u,
+.rozetta-editor :lang(ja) del + del,
+.rozetta-editor :lang(ja) del + s,
+.rozetta-editor :lang(ja) ins + ins,
+.rozetta-editor :lang(ja) ins + u,
+.rozetta-editor :lang(ja) s + del,
+.rozetta-editor :lang(ja) s + s,
+.rozetta-editor :lang(ja) u + ins,
+.rozetta-editor :lang(ja) u + u,
+.rozetta-editor .lang-cjk del + del,
+.rozetta-editor .lang-cjk del + s,
+.rozetta-editor .lang-cjk ins + ins,
+.rozetta-editor .lang-cjk ins + u,
+.rozetta-editor .lang-cjk s + del,
+.rozetta-editor .lang-cjk s + s,
+.rozetta-editor .lang-cjk u + ins,
+.rozetta-editor .lang-cjk u + u {
+  margin-left: 0.125em;
+}
+.rozetta-translator-tool .table,
+.rozetta-editor .table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  text-align: left;
+}
+.rozetta-translator-tool .table.table-striped tbody tr:nth-of-type(odd),
+.rozetta-editor .table.table-striped tbody tr:nth-of-type(odd) {
+  background: #f7f8f9;
+}
+.rozetta-translator-tool .table tbody tr.active, .rozetta-translator-tool .table.table-striped tbody tr.active,
+.rozetta-editor .table tbody tr.active,
+.rozetta-editor .table.table-striped tbody tr.active {
+  background: #eef0f3;
+}
+.rozetta-translator-tool .table.table-hover tbody tr:hover,
+.rozetta-editor .table.table-hover tbody tr:hover {
+  background: #eef0f3;
+}
+.rozetta-translator-tool .table.table-scroll,
+.rozetta-editor .table.table-scroll {
+  display: block;
+  overflow-x: auto;
+  padding-bottom: 0.75rem;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .table td,
+.rozetta-translator-tool .table th,
+.rozetta-editor .table td,
+.rozetta-editor .table th {
+  border-bottom: 0.05rem solid #dadee4;
+  padding: 0.6rem 0.4rem;
+}
+.rozetta-translator-tool .table th,
+.rozetta-editor .table th {
+  border-bottom-width: 0.1rem;
+}
+.rozetta-translator-tool .btn,
+.rozetta-editor .btn {
+  appearance: none;
+  background: #fff;
+  border: 0.05rem solid #5755d9;
+  border-radius: 0.1rem;
+  color: #5755d9;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8rem;
+  height: 1.8rem;
+  line-height: 1.2rem;
+  outline: none;
+  padding: 0.25rem 0.4rem;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s, color 0.2s!important;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .btn:focus,
+.rozetta-editor .btn:focus {
+  box-shadow: 0 0 0 0.1rem rgba(87, 85, 217, 0.2);
+}
+.rozetta-translator-tool .btn:focus, .rozetta-translator-tool .btn:hover,
+.rozetta-editor .btn:focus,
+.rozetta-editor .btn:hover {
+  background: #f1f1fc;
+  border-color: #4b48d6;
+  text-decoration: none;
+}
+.rozetta-translator-tool .btn:active, .rozetta-translator-tool .btn.active,
+.rozetta-editor .btn:active,
+.rozetta-editor .btn.active {
+  background: #4b48d6;
+  border-color: #3634d2;
+  color: #fff;
+  text-decoration: none;
+}
+.rozetta-translator-tool .btn:active.loading::after, .rozetta-translator-tool .btn.active.loading::after,
+.rozetta-editor .btn:active.loading::after,
+.rozetta-editor .btn.active.loading::after {
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+.rozetta-translator-tool .btn[disabled], .rozetta-translator-tool .btn:disabled, .rozetta-translator-tool .btn.disabled,
+.rozetta-editor .btn[disabled],
+.rozetta-editor .btn:disabled,
+.rozetta-editor .btn.disabled {
+  cursor: default;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.rozetta-translator-tool .btn.btn-primary,
+.rozetta-editor .btn.btn-primary {
+  background: #5755d9;
+  border-color: #4b48d6;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-primary:focus, .rozetta-translator-tool .btn.btn-primary:hover,
+.rozetta-editor .btn.btn-primary:focus,
+.rozetta-editor .btn.btn-primary:hover {
+  background: #4240d4;
+  border-color: #3634d2;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-primary:active, .rozetta-translator-tool .btn.btn-primary.active,
+.rozetta-editor .btn.btn-primary:active,
+.rozetta-editor .btn.btn-primary.active {
+  background: #3a38d2;
+  border-color: #302ecd;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-primary.loading::after,
+.rozetta-editor .btn.btn-primary.loading::after {
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+.rozetta-translator-tool .btn.btn-success,
+.rozetta-editor .btn.btn-success {
+  background: #32b643;
+  border-color: #2faa3f;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-success:focus,
+.rozetta-editor .btn.btn-success:focus {
+  box-shadow: 0 0 0 0.1rem rgba(50, 182, 67, 0.2);
+}
+.rozetta-translator-tool .btn.btn-success:focus, .rozetta-translator-tool .btn.btn-success:hover,
+.rozetta-editor .btn.btn-success:focus,
+.rozetta-editor .btn.btn-success:hover {
+  background: #30ae40;
+  border-color: #2da23c;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-success:active, .rozetta-translator-tool .btn.btn-success.active,
+.rozetta-editor .btn.btn-success:active,
+.rozetta-editor .btn.btn-success.active {
+  background: #2a9a39;
+  border-color: #278e34;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-success.loading::after,
+.rozetta-editor .btn.btn-success.loading::after {
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+.rozetta-translator-tool .btn.btn-error,
+.rozetta-editor .btn.btn-error {
+  background: #e85600;
+  border-color: #d95000;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-error:focus,
+.rozetta-editor .btn.btn-error:focus {
+  box-shadow: 0 0 0 0.1rem rgba(232, 86, 0, 0.2);
+}
+.rozetta-translator-tool .btn.btn-error:focus, .rozetta-translator-tool .btn.btn-error:hover,
+.rozetta-editor .btn.btn-error:focus,
+.rozetta-editor .btn.btn-error:hover {
+  background: #de5200;
+  border-color: #cf4d00;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-error:active, .rozetta-translator-tool .btn.btn-error.active,
+.rozetta-editor .btn.btn-error:active,
+.rozetta-editor .btn.btn-error.active {
+  background: #c44900;
+  border-color: #b54300;
+  color: #fff;
+}
+.rozetta-translator-tool .btn.btn-error.loading::after,
+.rozetta-editor .btn.btn-error.loading::after {
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+}
+.rozetta-translator-tool .btn.btn-link,
+.rozetta-editor .btn.btn-link {
+  background: transparent;
+  border-color: transparent;
+  color: #5755d9;
+}
+.rozetta-translator-tool .btn.btn-link:focus, .rozetta-translator-tool .btn.btn-link:hover, .rozetta-translator-tool .btn.btn-link:active, .rozetta-translator-tool .btn.btn-link.active,
+.rozetta-editor .btn.btn-link:focus,
+.rozetta-editor .btn.btn-link:hover,
+.rozetta-editor .btn.btn-link:active,
+.rozetta-editor .btn.btn-link.active {
+  color: #302ecd;
+}
+.rozetta-translator-tool .btn.btn-sm,
+.rozetta-editor .btn.btn-sm {
+  font-size: 0.7rem;
+  height: 1.4rem;
+  padding: 0.05rem 0.3rem;
+}
+.rozetta-translator-tool .btn.btn-lg,
+.rozetta-editor .btn.btn-lg {
+  font-size: 0.9rem;
+  height: 2rem;
+  padding: 0.35rem 0.6rem;
+}
+.rozetta-translator-tool .btn.btn-block,
+.rozetta-editor .btn.btn-block {
+  display: block;
+  width: 100%;
+}
+.rozetta-translator-tool .btn.btn-action,
+.rozetta-editor .btn.btn-action {
+  width: 1.8rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.rozetta-translator-tool .btn.btn-action.btn-sm,
+.rozetta-editor .btn.btn-action.btn-sm {
+  width: 1.4rem;
+}
+.rozetta-translator-tool .btn.btn-action.btn-lg,
+.rozetta-editor .btn.btn-action.btn-lg {
+  width: 2rem;
+}
+.rozetta-translator-tool .btn.btn-clear,
+.rozetta-editor .btn.btn-clear {
+  background: transparent;
+  border: 0;
+  color: currentColor;
+  height: 1rem;
+  line-height: 0.8rem;
+  margin-left: 0.2rem;
+  margin-right: -2px;
+  opacity: 1;
+  padding: 0.1rem;
+  text-decoration: none;
+  width: 1rem;
+}
+.rozetta-translator-tool .btn.btn-clear:focus, .rozetta-translator-tool .btn.btn-clear:hover,
+.rozetta-editor .btn.btn-clear:focus,
+.rozetta-editor .btn.btn-clear:hover {
+  background: rgba(247, 248, 249, 0.5);
+  opacity: 0.95;
+}
+.rozetta-translator-tool .btn.btn-clear::before,
+.rozetta-editor .btn.btn-clear::before {
+  content: "✕";
+}
+.rozetta-translator-tool .btn-group,
+.rozetta-editor .btn-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.rozetta-translator-tool .btn-group .btn,
+.rozetta-editor .btn-group .btn {
+  flex: 1 0 auto;
+}
+.rozetta-translator-tool .btn-group .btn:first-child:not(:last-child),
+.rozetta-editor .btn-group .btn:first-child:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.rozetta-translator-tool .btn-group .btn:not(:first-child):not(:last-child),
+.rozetta-editor .btn-group .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+  margin-left: -0.05rem;
+}
+.rozetta-translator-tool .btn-group .btn:last-child:not(:first-child),
+.rozetta-editor .btn-group .btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: -0.05rem;
+}
+.rozetta-translator-tool .btn-group .btn:focus, .rozetta-translator-tool .btn-group .btn:hover, .rozetta-translator-tool .btn-group .btn:active, .rozetta-translator-tool .btn-group .btn.active,
+.rozetta-editor .btn-group .btn:focus,
+.rozetta-editor .btn-group .btn:hover,
+.rozetta-editor .btn-group .btn:active,
+.rozetta-editor .btn-group .btn.active {
+  z-index: 1;
+}
+.rozetta-translator-tool .btn-group.btn-group-block,
+.rozetta-editor .btn-group.btn-group-block {
+  display: flex;
+}
+.rozetta-translator-tool .btn-group.btn-group-block .btn,
+.rozetta-editor .btn-group.btn-group-block .btn {
+  flex: 1 0 0;
+}
+.rozetta-translator-tool .form-group:not(:last-child),
+.rozetta-editor .form-group:not(:last-child) {
+  margin-bottom: 0.4rem;
+}
+.rozetta-translator-tool fieldset,
+.rozetta-editor fieldset {
+  margin-bottom: 0.8rem;
+}
+.rozetta-translator-tool legend,
+.rozetta-editor legend {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+.rozetta-translator-tool .form-label,
+.rozetta-editor .form-label {
+  display: block;
+  line-height: 1.2rem;
+  padding: 0.3rem 0;
+}
+.rozetta-translator-tool .form-label.label-sm,
+.rozetta-editor .form-label.label-sm {
+  font-size: 0.7rem;
+  padding: 0.1rem 0;
+}
+.rozetta-translator-tool .form-label.label-lg,
+.rozetta-editor .form-label.label-lg {
+  font-size: 0.9rem;
+  padding: 0.4rem 0;
+}
+.rozetta-translator-tool .form-input,
+.rozetta-editor .form-input {
+  appearance: none;
+  background: #fff;
+  background-image: none;
+  border: 0.05rem solid #bcc3ce;
+  border-radius: 0.1rem;
+  color: #3b4351;
+  display: block;
+  font-size: 0.8rem;
+  height: 1.8rem;
+  line-height: 1.2rem;
+  max-width: 100%;
+  outline: none;
+  padding: 0.25rem 0.4rem;
+  position: relative;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s, color 0.2s;
+  width: 100%;
+}
+.rozetta-translator-tool .form-input:focus,
+.rozetta-editor .form-input:focus {
+  box-shadow: 0 0 0 0.1rem rgba(87, 85, 217, 0.2);
+  border-color: #5755d9;
+}
+.rozetta-translator-tool .form-input::placeholder,
+.rozetta-editor .form-input::placeholder {
+  color: #bcc3ce;
+}
+.rozetta-translator-tool .form-input.input-sm,
+.rozetta-editor .form-input.input-sm {
+  font-size: 0.7rem;
+  height: 1.4rem;
+  padding: 0.05rem 0.3rem;
+}
+.rozetta-translator-tool .form-input.input-lg,
+.rozetta-editor .form-input.input-lg {
+  font-size: 0.9rem;
+  height: 2rem;
+  padding: 0.35rem 0.6rem;
+}
+.rozetta-translator-tool .form-input.input-inline,
+.rozetta-editor .form-input.input-inline {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+}
+.rozetta-translator-tool .form-input[type=file],
+.rozetta-editor .form-input[type=file] {
+  height: auto;
+}
+.rozetta-translator-tool textarea.form-input, .rozetta-translator-tool textarea.form-input.input-lg, .rozetta-translator-tool textarea.form-input.input-sm,
+.rozetta-editor textarea.form-input,
+.rozetta-editor textarea.form-input.input-lg,
+.rozetta-editor textarea.form-input.input-sm {
+  height: auto;
+}
+.rozetta-translator-tool .form-input-hint,
+.rozetta-editor .form-input-hint {
+  color: #bcc3ce;
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+}
+.has-success .rozetta-translator-tool .form-input-hint, .is-success + .rozetta-translator-tool .form-input-hint,
+.has-success .rozetta-editor .form-input-hint,
+.is-success + .rozetta-editor .form-input-hint {
+  color: #32b643;
+}
+.has-error .rozetta-translator-tool .form-input-hint, .is-error + .rozetta-translator-tool .form-input-hint,
+.has-error .rozetta-editor .form-input-hint,
+.is-error + .rozetta-editor .form-input-hint {
+  color: #e85600;
+}
+.rozetta-translator-tool .form-select,
+.rozetta-editor .form-select {
+  appearance: none;
+  border: 0.05rem solid #bcc3ce;
+  border-radius: 0.1rem;
+  color: inherit;
+  font-size: 0.8rem;
+  height: 1.8rem;
+  line-height: 1.2rem;
+  outline: none;
+  padding: 0.25rem 0.4rem;
+  vertical-align: middle;
+  width: 100%;
+  background: #fff;
+}
+.rozetta-translator-tool .form-select:focus,
+.rozetta-editor .form-select:focus {
+  box-shadow: 0 0 0 0.1rem rgba(87, 85, 217, 0.2);
+  border-color: #5755d9;
+}
+.rozetta-translator-tool .form-select::-ms-expand,
+.rozetta-editor .form-select::-ms-expand {
+  display: none;
+}
+.rozetta-translator-tool .form-select.select-sm,
+.rozetta-editor .form-select.select-sm {
+  font-size: 0.7rem;
+  height: 1.4rem;
+  padding: 0.05rem 1.1rem 0.05rem 0.3rem;
+}
+.rozetta-translator-tool .form-select.select-lg,
+.rozetta-editor .form-select.select-lg {
+  font-size: 0.9rem;
+  height: 2rem;
+  padding: 0.35rem 1.4rem 0.35rem 0.6rem;
+}
+.rozetta-translator-tool .form-select[size], .rozetta-translator-tool .form-select[multiple],
+.rozetta-editor .form-select[size],
+.rozetta-editor .form-select[multiple] {
+  height: auto;
+  padding: 0.25rem 0.4rem;
+}
+.rozetta-translator-tool .form-select[size] option, .rozetta-translator-tool .form-select[multiple] option,
+.rozetta-editor .form-select[size] option,
+.rozetta-editor .form-select[multiple] option {
+  padding: 0.1rem 0.2rem;
+}
+.rozetta-translator-tool .form-select:not([multiple]):not([size]),
+.rozetta-editor .form-select:not([multiple]):not([size]) {
+  background: #fff url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='%23667189'%20d='M2%200L0%202h4zm0%205L0%203h4z'/%3E%3C/svg%3E") no-repeat right 0.35rem center/0.4rem 0.5rem;
+  padding-right: 1.2rem;
+}
+.rozetta-translator-tool .has-icon-left,
+.rozetta-translator-tool .has-icon-right,
+.rozetta-editor .has-icon-left,
+.rozetta-editor .has-icon-right {
+  position: relative;
+}
+.rozetta-translator-tool .has-icon-left .form-icon,
+.rozetta-translator-tool .has-icon-right .form-icon,
+.rozetta-editor .has-icon-left .form-icon,
+.rozetta-editor .has-icon-right .form-icon {
+  height: 0.8rem;
+  margin: 0 0.25rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.8rem;
+  z-index: 2;
+}
+.rozetta-translator-tool .has-icon-left .form-icon,
+.rozetta-editor .has-icon-left .form-icon {
+  left: 0.05rem;
+}
+.rozetta-translator-tool .has-icon-left .form-input,
+.rozetta-editor .has-icon-left .form-input {
+  padding-left: 1.3rem;
+}
+.rozetta-translator-tool .has-icon-right .form-icon,
+.rozetta-editor .has-icon-right .form-icon {
+  right: 0.05rem;
+}
+.rozetta-translator-tool .has-icon-right .form-input,
+.rozetta-editor .has-icon-right .form-input {
+  padding-right: 1.3rem;
+}
+.rozetta-translator-tool .form-checkbox,
+.rozetta-translator-tool .form-radio,
+.rozetta-translator-tool .form-switch,
+.rozetta-editor .form-checkbox,
+.rozetta-editor .form-radio,
+.rozetta-editor .form-switch {
+  display: block;
+  line-height: 1.2rem;
+  margin: 0.2rem 0;
+  min-height: 1.4rem;
+  padding: 0.1rem 0.4rem 0.1rem 1.2rem;
+  position: relative;
+}
+.rozetta-translator-tool .form-checkbox input,
+.rozetta-translator-tool .form-radio input,
+.rozetta-translator-tool .form-switch input,
+.rozetta-editor .form-checkbox input,
+.rozetta-editor .form-radio input,
+.rozetta-editor .form-switch input {
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+.rozetta-translator-tool .form-checkbox input:focus + .form-icon,
+.rozetta-translator-tool .form-radio input:focus + .form-icon,
+.rozetta-translator-tool .form-switch input:focus + .form-icon,
+.rozetta-editor .form-checkbox input:focus + .form-icon,
+.rozetta-editor .form-radio input:focus + .form-icon,
+.rozetta-editor .form-switch input:focus + .form-icon {
+  box-shadow: 0 0 0 0.1rem rgba(87, 85, 217, 0.2);
+  border-color: #5755d9;
+}
+.rozetta-translator-tool .form-checkbox input:checked + .form-icon,
+.rozetta-translator-tool .form-radio input:checked + .form-icon,
+.rozetta-translator-tool .form-switch input:checked + .form-icon,
+.rozetta-editor .form-checkbox input:checked + .form-icon,
+.rozetta-editor .form-radio input:checked + .form-icon,
+.rozetta-editor .form-switch input:checked + .form-icon {
+  background: #5755d9;
+  border-color: #5755d9;
+}
+.rozetta-translator-tool .form-checkbox .form-icon,
+.rozetta-translator-tool .form-radio .form-icon,
+.rozetta-translator-tool .form-switch .form-icon,
+.rozetta-editor .form-checkbox .form-icon,
+.rozetta-editor .form-radio .form-icon,
+.rozetta-editor .form-switch .form-icon {
+  border: 0.05rem solid #bcc3ce;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s, color 0.2s;
+}
+.rozetta-translator-tool .form-checkbox.input-sm,
+.rozetta-translator-tool .form-radio.input-sm,
+.rozetta-translator-tool .form-switch.input-sm,
+.rozetta-editor .form-checkbox.input-sm,
+.rozetta-editor .form-radio.input-sm,
+.rozetta-editor .form-switch.input-sm {
+  font-size: 0.7rem;
+  margin: 0;
+}
+.rozetta-translator-tool .form-checkbox.input-lg,
+.rozetta-translator-tool .form-radio.input-lg,
+.rozetta-translator-tool .form-switch.input-lg,
+.rozetta-editor .form-checkbox.input-lg,
+.rozetta-editor .form-radio.input-lg,
+.rozetta-editor .form-switch.input-lg {
+  font-size: 0.9rem;
+  margin: 0.3rem 0;
+}
+.rozetta-translator-tool .form-checkbox .form-icon,
+.rozetta-translator-tool .form-radio .form-icon,
+.rozetta-editor .form-checkbox .form-icon,
+.rozetta-editor .form-radio .form-icon {
+  background: #fff;
+  height: 0.8rem;
+  left: 0;
+  top: 0.3rem;
+  width: 0.8rem;
+}
+.rozetta-translator-tool .form-checkbox input:active + .form-icon,
+.rozetta-translator-tool .form-radio input:active + .form-icon,
+.rozetta-editor .form-checkbox input:active + .form-icon,
+.rozetta-editor .form-radio input:active + .form-icon {
+  background: #eef0f3;
+}
+.rozetta-translator-tool .form-checkbox .form-icon,
+.rozetta-editor .form-checkbox .form-icon {
+  border-radius: 0.1rem;
+}
+.rozetta-translator-tool .form-checkbox input:checked + .form-icon::before,
+.rozetta-editor .form-checkbox input:checked + .form-icon::before {
+  background-clip: padding-box;
+  border: 0.1rem solid #fff;
+  border-left-width: 0;
+  border-top-width: 0;
+  content: "";
+  height: 9px;
+  left: 50%;
+  margin-left: -3px;
+  margin-top: -6px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+  width: 6px;
+}
+.rozetta-translator-tool .form-checkbox input:indeterminate + .form-icon,
+.rozetta-editor .form-checkbox input:indeterminate + .form-icon {
+  background: #5755d9;
+  border-color: #5755d9;
+}
+.rozetta-translator-tool .form-checkbox input:indeterminate + .form-icon::before,
+.rozetta-editor .form-checkbox input:indeterminate + .form-icon::before {
+  background: #fff;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -1px;
+  position: absolute;
+  top: 50%;
+  width: 10px;
+}
+.rozetta-translator-tool .form-radio .form-icon,
+.rozetta-editor .form-radio .form-icon {
+  border-radius: 50%;
+}
+.rozetta-translator-tool .form-radio input:checked + .form-icon::before,
+.rozetta-editor .form-radio input:checked + .form-icon::before {
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  height: 6px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 6px;
+}
+.rozetta-translator-tool .form-switch,
+.rozetta-editor .form-switch {
+  padding-left: 2rem;
+}
+.rozetta-translator-tool .form-switch .form-icon,
+.rozetta-editor .form-switch .form-icon {
+  background: #bcc3ce;
+  background-clip: padding-box;
+  border-radius: 0.45rem;
+  height: 0.9rem;
+  left: 0;
+  top: 0.25rem;
+  width: 1.6rem;
+}
+.rozetta-translator-tool .form-switch .form-icon::before,
+.rozetta-editor .form-switch .form-icon::before {
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0.8rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: background 0.2s, border 0.2s, box-shadow 0.2s, color 0.2s, left 0.2s;
+  width: 0.8rem;
+}
+.rozetta-translator-tool .form-switch input:checked + .form-icon::before,
+.rozetta-editor .form-switch input:checked + .form-icon::before {
+  left: 14px;
+}
+.rozetta-translator-tool .form-switch input:active + .form-icon::before,
+.rozetta-editor .form-switch input:active + .form-icon::before {
+  background: #f7f8f9;
+}
+.rozetta-translator-tool .input-group,
+.rozetta-editor .input-group {
+  display: flex;
+}
+.rozetta-translator-tool .input-group .input-group-addon,
+.rozetta-editor .input-group .input-group-addon {
+  background: #f7f8f9;
+  border: 0.05rem solid #bcc3ce;
+  border-radius: 0.1rem;
+  line-height: 1.2rem;
+  padding: 0.25rem 0.4rem;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .input-group .input-group-addon.addon-sm,
+.rozetta-editor .input-group .input-group-addon.addon-sm {
+  font-size: 0.7rem;
+  padding: 0.05rem 0.3rem;
+}
+.rozetta-translator-tool .input-group .input-group-addon.addon-lg,
+.rozetta-editor .input-group .input-group-addon.addon-lg {
+  font-size: 0.9rem;
+  padding: 0.35rem 0.6rem;
+}
+.rozetta-translator-tool .input-group .form-input,
+.rozetta-translator-tool .input-group .form-select,
+.rozetta-editor .input-group .form-input,
+.rozetta-editor .input-group .form-select {
+  flex: 1 1 auto;
+  width: 1%;
+}
+.rozetta-translator-tool .input-group .input-group-btn,
+.rozetta-editor .input-group .input-group-btn {
+  z-index: 1;
+}
+.rozetta-translator-tool .input-group .form-input:first-child:not(:last-child),
+.rozetta-translator-tool .input-group .form-select:first-child:not(:last-child),
+.rozetta-translator-tool .input-group .input-group-addon:first-child:not(:last-child),
+.rozetta-translator-tool .input-group .input-group-btn:first-child:not(:last-child),
+.rozetta-editor .input-group .form-input:first-child:not(:last-child),
+.rozetta-editor .input-group .form-select:first-child:not(:last-child),
+.rozetta-editor .input-group .input-group-addon:first-child:not(:last-child),
+.rozetta-editor .input-group .input-group-btn:first-child:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.rozetta-translator-tool .input-group .form-input:not(:first-child):not(:last-child),
+.rozetta-translator-tool .input-group .form-select:not(:first-child):not(:last-child),
+.rozetta-translator-tool .input-group .input-group-addon:not(:first-child):not(:last-child),
+.rozetta-translator-tool .input-group .input-group-btn:not(:first-child):not(:last-child),
+.rozetta-editor .input-group .form-input:not(:first-child):not(:last-child),
+.rozetta-editor .input-group .form-select:not(:first-child):not(:last-child),
+.rozetta-editor .input-group .input-group-addon:not(:first-child):not(:last-child),
+.rozetta-editor .input-group .input-group-btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+  margin-left: -0.05rem;
+}
+.rozetta-translator-tool .input-group .form-input:last-child:not(:first-child),
+.rozetta-translator-tool .input-group .form-select:last-child:not(:first-child),
+.rozetta-translator-tool .input-group .input-group-addon:last-child:not(:first-child),
+.rozetta-translator-tool .input-group .input-group-btn:last-child:not(:first-child),
+.rozetta-editor .input-group .form-input:last-child:not(:first-child),
+.rozetta-editor .input-group .form-select:last-child:not(:first-child),
+.rozetta-editor .input-group .input-group-addon:last-child:not(:first-child),
+.rozetta-editor .input-group .input-group-btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: -0.05rem;
+}
+.rozetta-translator-tool .input-group .form-input:focus,
+.rozetta-translator-tool .input-group .form-select:focus,
+.rozetta-translator-tool .input-group .input-group-addon:focus,
+.rozetta-translator-tool .input-group .input-group-btn:focus,
+.rozetta-editor .input-group .form-input:focus,
+.rozetta-editor .input-group .form-select:focus,
+.rozetta-editor .input-group .input-group-addon:focus,
+.rozetta-editor .input-group .input-group-btn:focus {
+  z-index: 2;
+}
+.rozetta-translator-tool .input-group .form-select,
+.rozetta-editor .input-group .form-select {
+  width: auto;
+}
+.rozetta-translator-tool .input-group.input-inline,
+.rozetta-editor .input-group.input-inline {
+  display: inline-flex;
+}
+.has-success .rozetta-translator-tool .form-input, .rozetta-translator-tool .form-input.is-success,
+.has-success .rozetta-translator-tool .form-select,
+.rozetta-translator-tool .form-select.is-success,
+.has-success .rozetta-editor .form-input,
+.rozetta-editor .form-input.is-success,
+.has-success .rozetta-editor .form-select,
+.rozetta-editor .form-select.is-success {
+  background: #f9fdfa;
+  border-color: #32b643;
+}
+.has-success .rozetta-translator-tool .form-input:focus, .rozetta-translator-tool .form-input.is-success:focus,
+.has-success .rozetta-translator-tool .form-select:focus,
+.rozetta-translator-tool .form-select.is-success:focus,
+.has-success .rozetta-editor .form-input:focus,
+.rozetta-editor .form-input.is-success:focus,
+.has-success .rozetta-editor .form-select:focus,
+.rozetta-editor .form-select.is-success:focus {
+  box-shadow: 0 0 0 0.1rem rgba(50, 182, 67, 0.2);
+}
+.has-error .rozetta-translator-tool .form-input, .rozetta-translator-tool .form-input.is-error,
+.has-error .rozetta-translator-tool .form-select,
+.rozetta-translator-tool .form-select.is-error,
+.has-error .rozetta-editor .form-input,
+.rozetta-editor .form-input.is-error,
+.has-error .rozetta-editor .form-select,
+.rozetta-editor .form-select.is-error {
+  background: #fffaf7;
+  border-color: #e85600;
+}
+.has-error .rozetta-translator-tool .form-input:focus, .rozetta-translator-tool .form-input.is-error:focus,
+.has-error .rozetta-translator-tool .form-select:focus,
+.rozetta-translator-tool .form-select.is-error:focus,
+.has-error .rozetta-editor .form-input:focus,
+.rozetta-editor .form-input.is-error:focus,
+.has-error .rozetta-editor .form-select:focus,
+.rozetta-editor .form-select.is-error:focus {
+  box-shadow: 0 0 0 0.1rem rgba(232, 86, 0, 0.2);
+}
+.has-error .rozetta-translator-tool .form-checkbox .form-icon, .rozetta-translator-tool .form-checkbox.is-error .form-icon,
+.has-error .rozetta-translator-tool .form-radio .form-icon,
+.rozetta-translator-tool .form-radio.is-error .form-icon,
+.has-error .rozetta-translator-tool .form-switch .form-icon,
+.rozetta-translator-tool .form-switch.is-error .form-icon,
+.has-error .rozetta-editor .form-checkbox .form-icon,
+.rozetta-editor .form-checkbox.is-error .form-icon,
+.has-error .rozetta-editor .form-radio .form-icon,
+.rozetta-editor .form-radio.is-error .form-icon,
+.has-error .rozetta-editor .form-switch .form-icon,
+.rozetta-editor .form-switch.is-error .form-icon {
+  border-color: #e85600;
+}
+.has-error .rozetta-translator-tool .form-checkbox input:checked + .form-icon, .rozetta-translator-tool .form-checkbox.is-error input:checked + .form-icon,
+.has-error .rozetta-translator-tool .form-radio input:checked + .form-icon,
+.rozetta-translator-tool .form-radio.is-error input:checked + .form-icon,
+.has-error .rozetta-translator-tool .form-switch input:checked + .form-icon,
+.rozetta-translator-tool .form-switch.is-error input:checked + .form-icon,
+.has-error .rozetta-editor .form-checkbox input:checked + .form-icon,
+.rozetta-editor .form-checkbox.is-error input:checked + .form-icon,
+.has-error .rozetta-editor .form-radio input:checked + .form-icon,
+.rozetta-editor .form-radio.is-error input:checked + .form-icon,
+.has-error .rozetta-editor .form-switch input:checked + .form-icon,
+.rozetta-editor .form-switch.is-error input:checked + .form-icon {
+  background: #e85600;
+  border-color: #e85600;
+}
+.has-error .rozetta-translator-tool .form-checkbox input:focus + .form-icon, .rozetta-translator-tool .form-checkbox.is-error input:focus + .form-icon,
+.has-error .rozetta-translator-tool .form-radio input:focus + .form-icon,
+.rozetta-translator-tool .form-radio.is-error input:focus + .form-icon,
+.has-error .rozetta-translator-tool .form-switch input:focus + .form-icon,
+.rozetta-translator-tool .form-switch.is-error input:focus + .form-icon,
+.has-error .rozetta-editor .form-checkbox input:focus + .form-icon,
+.rozetta-editor .form-checkbox.is-error input:focus + .form-icon,
+.has-error .rozetta-editor .form-radio input:focus + .form-icon,
+.rozetta-editor .form-radio.is-error input:focus + .form-icon,
+.has-error .rozetta-editor .form-switch input:focus + .form-icon,
+.rozetta-editor .form-switch.is-error input:focus + .form-icon {
+  box-shadow: 0 0 0 0.1rem rgba(232, 86, 0, 0.2);
+  border-color: #e85600;
+}
+.has-error .rozetta-translator-tool .form-checkbox input:indeterminate + .form-icon, .rozetta-translator-tool .form-checkbox.is-error input:indeterminate + .form-icon,
+.has-error .rozetta-editor .form-checkbox input:indeterminate + .form-icon,
+.rozetta-editor .form-checkbox.is-error input:indeterminate + .form-icon {
+  background: #e85600;
+  border-color: #e85600;
+}
+.rozetta-translator-tool .form-input:not(:placeholder-shown):invalid,
+.rozetta-editor .form-input:not(:placeholder-shown):invalid {
+  border-color: #e85600;
+}
+.rozetta-translator-tool .form-input:not(:placeholder-shown):invalid:focus,
+.rozetta-editor .form-input:not(:placeholder-shown):invalid:focus {
+  box-shadow: 0 0 0 0.1rem rgba(232, 86, 0, 0.2);
+  background: #fffaf7;
+}
+.rozetta-translator-tool .form-input:not(:placeholder-shown):invalid + .form-input-hint,
+.rozetta-editor .form-input:not(:placeholder-shown):invalid + .form-input-hint {
+  color: #e85600;
+}
+.rozetta-translator-tool .form-input:disabled, .rozetta-translator-tool .form-input.disabled,
+.rozetta-translator-tool .form-select:disabled,
+.rozetta-translator-tool .form-select.disabled,
+.rozetta-editor .form-input:disabled,
+.rozetta-editor .form-input.disabled,
+.rozetta-editor .form-select:disabled,
+.rozetta-editor .form-select.disabled {
+  background-color: #eef0f3;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.rozetta-translator-tool .form-input[readonly],
+.rozetta-editor .form-input[readonly] {
+  background-color: #f7f8f9;
+}
+.rozetta-translator-tool input:disabled + .form-icon, .rozetta-translator-tool input.disabled + .form-icon,
+.rozetta-editor input:disabled + .form-icon,
+.rozetta-editor input.disabled + .form-icon {
+  background: #eef0f3;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.rozetta-translator-tool .form-switch input:disabled + .form-icon::before, .rozetta-translator-tool .form-switch input.disabled + .form-icon::before,
+.rozetta-editor .form-switch input:disabled + .form-icon::before,
+.rozetta-editor .form-switch input.disabled + .form-icon::before {
+  background: #fff;
+}
+.rozetta-translator-tool .form-horizontal,
+.rozetta-editor .form-horizontal {
+  padding: 0.4rem 0;
+}
+.rozetta-translator-tool .form-horizontal .form-group,
+.rozetta-editor .form-horizontal .form-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rozetta-translator-tool .form-inline,
+.rozetta-editor .form-inline {
+  display: inline-block;
+}
+.rozetta-translator-tool .label,
+.rozetta-editor .label {
+  border-radius: 0.1rem;
+  line-height: 1.25;
+  padding: 0.1rem 0.2rem;
+  background: #eef0f3;
+  color: #455060;
+  display: inline-block;
+}
+.rozetta-translator-tool .label.label-rounded,
+.rozetta-editor .label.label-rounded {
+  border-radius: 5rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.rozetta-translator-tool .label.label-primary,
+.rozetta-editor .label.label-primary {
+  background: #5755d9;
+  color: #fff;
+}
+.rozetta-translator-tool .label.label-secondary,
+.rozetta-editor .label.label-secondary {
+  background: #f1f1fc;
+  color: #5755d9;
+}
+.rozetta-translator-tool .label.label-success,
+.rozetta-editor .label.label-success {
+  background: #32b643;
+  color: #fff;
+}
+.rozetta-translator-tool .label.label-warning,
+.rozetta-editor .label.label-warning {
+  background: #ffb700;
+  color: #fff;
+}
+.rozetta-translator-tool .label.label-error,
+.rozetta-editor .label.label-error {
+  background: #e85600;
+  color: #fff;
+}
+.rozetta-translator-tool code,
+.rozetta-editor code {
+  border-radius: 0.1rem;
+  line-height: 1.25;
+  padding: 0.1rem 0.2rem;
+  background: #fcf2f2;
+  color: #d73e48;
+  font-size: 85%;
+}
+.rozetta-translator-tool .code,
+.rozetta-editor .code {
+  border-radius: 0.1rem;
+  color: #3b4351;
+  position: relative;
+}
+.rozetta-translator-tool .code::before,
+.rozetta-editor .code::before {
+  color: #bcc3ce;
+  content: attr(data-lang);
+  font-size: 0.7rem;
+  position: absolute;
+  right: 0.4rem;
+  top: 0.1rem;
+}
+.rozetta-translator-tool .code code,
+.rozetta-editor .code code {
+  background: #f7f8f9;
+  color: inherit;
+  display: block;
+  line-height: 1.5;
+  overflow-x: auto;
+  padding: 1rem;
+  width: 100%;
+}
+.rozetta-translator-tool .img-responsive,
+.rozetta-editor .img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.rozetta-translator-tool .img-fit-cover,
+.rozetta-editor .img-fit-cover {
+  object-fit: cover;
+}
+.rozetta-translator-tool .img-fit-contain,
+.rozetta-editor .img-fit-contain {
+  object-fit: contain;
+}
+.rozetta-translator-tool .video-responsive,
+.rozetta-editor .video-responsive {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.rozetta-translator-tool .video-responsive::before,
+.rozetta-editor .video-responsive::before {
+  content: "";
+  display: block;
+  padding-bottom: 56.25%;
+}
+.rozetta-translator-tool .video-responsive iframe,
+.rozetta-translator-tool .video-responsive object,
+.rozetta-translator-tool .video-responsive embed,
+.rozetta-editor .video-responsive iframe,
+.rozetta-editor .video-responsive object,
+.rozetta-editor .video-responsive embed {
+  border: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.rozetta-translator-tool video.video-responsive,
+.rozetta-editor video.video-responsive {
+  height: auto;
+  max-width: 100%;
+}
+.rozetta-translator-tool video.video-responsive::before,
+.rozetta-editor video.video-responsive::before {
+  content: none;
+}
+.rozetta-translator-tool .video-responsive-4-3::before,
+.rozetta-editor .video-responsive-4-3::before {
+  padding-bottom: 75%;
+}
+.rozetta-translator-tool .video-responsive-1-1::before,
+.rozetta-editor .video-responsive-1-1::before {
+  padding-bottom: 100%;
+}
+.rozetta-translator-tool .figure,
+.rozetta-editor .figure {
+  margin: 0 0 0.4rem 0;
+}
+.rozetta-translator-tool .figure .figure-caption,
+.rozetta-editor .figure .figure-caption {
+  color: #66758c;
+  margin-top: 0.4rem;
+}
+.rozetta-translator-tool .container,
+.rozetta-editor .container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  width: 100%;
+}
+.rozetta-translator-tool .container.grid-xl,
+.rozetta-editor .container.grid-xl {
+  max-width: 1296px;
+}
+.rozetta-translator-tool .container.grid-lg,
+.rozetta-editor .container.grid-lg {
+  max-width: 976px;
+}
+.rozetta-translator-tool .container.grid-md,
+.rozetta-editor .container.grid-md {
+  max-width: 856px;
+}
+.rozetta-translator-tool .container.grid-sm,
+.rozetta-editor .container.grid-sm {
+  max-width: 616px;
+}
+.rozetta-translator-tool .container.grid-xs,
+.rozetta-editor .container.grid-xs {
+  max-width: 496px;
+}
+.rozetta-translator-tool .show-xs,
+.rozetta-translator-tool .show-sm,
+.rozetta-translator-tool .show-md,
+.rozetta-translator-tool .show-lg,
+.rozetta-translator-tool .show-xl,
+.rozetta-editor .show-xs,
+.rozetta-editor .show-sm,
+.rozetta-editor .show-md,
+.rozetta-editor .show-lg,
+.rozetta-editor .show-xl {
+  display: none !important;
+}
+.rozetta-translator-tool .cols,
+.rozetta-translator-tool .columns,
+.rozetta-editor .cols,
+.rozetta-editor .columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.4rem;
+  margin-right: -0.4rem;
+}
+.rozetta-translator-tool .cols.col-gapless,
+.rozetta-translator-tool .columns.col-gapless,
+.rozetta-editor .cols.col-gapless,
+.rozetta-editor .columns.col-gapless {
+  margin-left: 0;
+  margin-right: 0;
+}
+.rozetta-translator-tool .cols.col-gapless > .column,
+.rozetta-translator-tool .columns.col-gapless > .column,
+.rozetta-editor .cols.col-gapless > .column,
+.rozetta-editor .columns.col-gapless > .column {
+  padding-left: 0;
+  padding-right: 0;
+}
+.rozetta-translator-tool .cols.col-oneline,
+.rozetta-translator-tool .columns.col-oneline,
+.rozetta-editor .cols.col-oneline,
+.rozetta-editor .columns.col-oneline {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.rozetta-translator-tool [class~=col-],
+.rozetta-translator-tool .column,
+.rozetta-editor [class~=col-],
+.rozetta-editor .column {
+  flex: 1;
+  max-width: 100%;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.rozetta-translator-tool [class~=col-].col-12, .rozetta-translator-tool [class~=col-].col-11, .rozetta-translator-tool [class~=col-].col-10, .rozetta-translator-tool [class~=col-].col-9, .rozetta-translator-tool [class~=col-].col-8, .rozetta-translator-tool [class~=col-].col-7, .rozetta-translator-tool [class~=col-].col-6, .rozetta-translator-tool [class~=col-].col-5, .rozetta-translator-tool [class~=col-].col-4, .rozetta-translator-tool [class~=col-].col-3, .rozetta-translator-tool [class~=col-].col-2, .rozetta-translator-tool [class~=col-].col-1, .rozetta-translator-tool [class~=col-].col-auto,
+.rozetta-translator-tool .column.col-12,
+.rozetta-translator-tool .column.col-11,
+.rozetta-translator-tool .column.col-10,
+.rozetta-translator-tool .column.col-9,
+.rozetta-translator-tool .column.col-8,
+.rozetta-translator-tool .column.col-7,
+.rozetta-translator-tool .column.col-6,
+.rozetta-translator-tool .column.col-5,
+.rozetta-translator-tool .column.col-4,
+.rozetta-translator-tool .column.col-3,
+.rozetta-translator-tool .column.col-2,
+.rozetta-translator-tool .column.col-1,
+.rozetta-translator-tool .column.col-auto,
+.rozetta-editor [class~=col-].col-12,
+.rozetta-editor [class~=col-].col-11,
+.rozetta-editor [class~=col-].col-10,
+.rozetta-editor [class~=col-].col-9,
+.rozetta-editor [class~=col-].col-8,
+.rozetta-editor [class~=col-].col-7,
+.rozetta-editor [class~=col-].col-6,
+.rozetta-editor [class~=col-].col-5,
+.rozetta-editor [class~=col-].col-4,
+.rozetta-editor [class~=col-].col-3,
+.rozetta-editor [class~=col-].col-2,
+.rozetta-editor [class~=col-].col-1,
+.rozetta-editor [class~=col-].col-auto,
+.rozetta-editor .column.col-12,
+.rozetta-editor .column.col-11,
+.rozetta-editor .column.col-10,
+.rozetta-editor .column.col-9,
+.rozetta-editor .column.col-8,
+.rozetta-editor .column.col-7,
+.rozetta-editor .column.col-6,
+.rozetta-editor .column.col-5,
+.rozetta-editor .column.col-4,
+.rozetta-editor .column.col-3,
+.rozetta-editor .column.col-2,
+.rozetta-editor .column.col-1,
+.rozetta-editor .column.col-auto {
+  flex: none;
+}
+.rozetta-translator-tool .col-12,
+.rozetta-editor .col-12 {
+  width: 100%;
+}
+.rozetta-translator-tool .col-11,
+.rozetta-editor .col-11 {
+  width: 91.66666667%;
+}
+.rozetta-translator-tool .col-10,
+.rozetta-editor .col-10 {
+  width: 83.33333333%;
+}
+.rozetta-translator-tool .col-9,
+.rozetta-editor .col-9 {
+  width: 75%;
+}
+.rozetta-translator-tool .col-8,
+.rozetta-editor .col-8 {
+  width: 66.66666667%;
+}
+.rozetta-translator-tool .col-7,
+.rozetta-editor .col-7 {
+  width: 58.33333333%;
+}
+.rozetta-translator-tool .col-6,
+.rozetta-editor .col-6 {
+  width: 50%;
+}
+.rozetta-translator-tool .col-5,
+.rozetta-editor .col-5 {
+  width: 41.66666667%;
+}
+.rozetta-translator-tool .col-4,
+.rozetta-editor .col-4 {
+  width: 33.33333333%;
+}
+.rozetta-translator-tool .col-3,
+.rozetta-editor .col-3 {
+  width: 25%;
+}
+.rozetta-translator-tool .col-2,
+.rozetta-editor .col-2 {
+  width: 16.66666667%;
+}
+.rozetta-translator-tool .col-1,
+.rozetta-editor .col-1 {
+  width: 8.33333333%;
+}
+.rozetta-translator-tool .col-auto,
+.rozetta-editor .col-auto {
+  flex: 0 0 auto;
+  max-width: none;
+  width: auto;
+}
+.rozetta-translator-tool .col-mx-auto,
+.rozetta-editor .col-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.rozetta-translator-tool .col-ml-auto,
+.rozetta-editor .col-ml-auto {
+  margin-left: auto;
+}
+.rozetta-translator-tool .col-mr-auto,
+.rozetta-editor .col-mr-auto {
+  margin-right: auto;
+}
+@media (max-width: 1280px) {
+  .rozetta-translator-tool .col-xl-12,
+.rozetta-translator-tool .col-xl-11,
+.rozetta-translator-tool .col-xl-10,
+.rozetta-translator-tool .col-xl-9,
+.rozetta-translator-tool .col-xl-8,
+.rozetta-translator-tool .col-xl-7,
+.rozetta-translator-tool .col-xl-6,
+.rozetta-translator-tool .col-xl-5,
+.rozetta-translator-tool .col-xl-4,
+.rozetta-translator-tool .col-xl-3,
+.rozetta-translator-tool .col-xl-2,
+.rozetta-translator-tool .col-xl-1,
+.rozetta-translator-tool .col-xl-auto,
+.rozetta-editor .col-xl-12,
+.rozetta-editor .col-xl-11,
+.rozetta-editor .col-xl-10,
+.rozetta-editor .col-xl-9,
+.rozetta-editor .col-xl-8,
+.rozetta-editor .col-xl-7,
+.rozetta-editor .col-xl-6,
+.rozetta-editor .col-xl-5,
+.rozetta-editor .col-xl-4,
+.rozetta-editor .col-xl-3,
+.rozetta-editor .col-xl-2,
+.rozetta-editor .col-xl-1,
+.rozetta-editor .col-xl-auto {
+    flex: none;
+  }
+  .rozetta-translator-tool .col-xl-12,
+.rozetta-editor .col-xl-12 {
+    width: 100%;
+  }
+  .rozetta-translator-tool .col-xl-11,
+.rozetta-editor .col-xl-11 {
+    width: 91.66666667%;
+  }
+  .rozetta-translator-tool .col-xl-10,
+.rozetta-editor .col-xl-10 {
+    width: 83.33333333%;
+  }
+  .rozetta-translator-tool .col-xl-9,
+.rozetta-editor .col-xl-9 {
+    width: 75%;
+  }
+  .rozetta-translator-tool .col-xl-8,
+.rozetta-editor .col-xl-8 {
+    width: 66.66666667%;
+  }
+  .rozetta-translator-tool .col-xl-7,
+.rozetta-editor .col-xl-7 {
+    width: 58.33333333%;
+  }
+  .rozetta-translator-tool .col-xl-6,
+.rozetta-editor .col-xl-6 {
+    width: 50%;
+  }
+  .rozetta-translator-tool .col-xl-5,
+.rozetta-editor .col-xl-5 {
+    width: 41.66666667%;
+  }
+  .rozetta-translator-tool .col-xl-4,
+.rozetta-editor .col-xl-4 {
+    width: 33.33333333%;
+  }
+  .rozetta-translator-tool .col-xl-3,
+.rozetta-editor .col-xl-3 {
+    width: 25%;
+  }
+  .rozetta-translator-tool .col-xl-2,
+.rozetta-editor .col-xl-2 {
+    width: 16.66666667%;
+  }
+  .rozetta-translator-tool .col-xl-1,
+.rozetta-editor .col-xl-1 {
+    width: 8.33333333%;
+  }
+  .rozetta-translator-tool .col-xl-auto,
+.rozetta-editor .col-xl-auto {
+    width: auto;
+  }
+  .rozetta-translator-tool .hide-xl,
+.rozetta-editor .hide-xl {
+    display: none !important;
+  }
+  .rozetta-translator-tool .show-xl,
+.rozetta-editor .show-xl {
+    display: block !important;
+  }
+}
+@media (max-width: 960px) {
+  .rozetta-translator-tool .col-lg-12,
+.rozetta-translator-tool .col-lg-11,
+.rozetta-translator-tool .col-lg-10,
+.rozetta-translator-tool .col-lg-9,
+.rozetta-translator-tool .col-lg-8,
+.rozetta-translator-tool .col-lg-7,
+.rozetta-translator-tool .col-lg-6,
+.rozetta-translator-tool .col-lg-5,
+.rozetta-translator-tool .col-lg-4,
+.rozetta-translator-tool .col-lg-3,
+.rozetta-translator-tool .col-lg-2,
+.rozetta-translator-tool .col-lg-1,
+.rozetta-translator-tool .col-lg-auto,
+.rozetta-editor .col-lg-12,
+.rozetta-editor .col-lg-11,
+.rozetta-editor .col-lg-10,
+.rozetta-editor .col-lg-9,
+.rozetta-editor .col-lg-8,
+.rozetta-editor .col-lg-7,
+.rozetta-editor .col-lg-6,
+.rozetta-editor .col-lg-5,
+.rozetta-editor .col-lg-4,
+.rozetta-editor .col-lg-3,
+.rozetta-editor .col-lg-2,
+.rozetta-editor .col-lg-1,
+.rozetta-editor .col-lg-auto {
+    flex: none;
+  }
+  .rozetta-translator-tool .col-lg-12,
+.rozetta-editor .col-lg-12 {
+    width: 100%;
+  }
+  .rozetta-translator-tool .col-lg-11,
+.rozetta-editor .col-lg-11 {
+    width: 91.66666667%;
+  }
+  .rozetta-translator-tool .col-lg-10,
+.rozetta-editor .col-lg-10 {
+    width: 83.33333333%;
+  }
+  .rozetta-translator-tool .col-lg-9,
+.rozetta-editor .col-lg-9 {
+    width: 75%;
+  }
+  .rozetta-translator-tool .col-lg-8,
+.rozetta-editor .col-lg-8 {
+    width: 66.66666667%;
+  }
+  .rozetta-translator-tool .col-lg-7,
+.rozetta-editor .col-lg-7 {
+    width: 58.33333333%;
+  }
+  .rozetta-translator-tool .col-lg-6,
+.rozetta-editor .col-lg-6 {
+    width: 50%;
+  }
+  .rozetta-translator-tool .col-lg-5,
+.rozetta-editor .col-lg-5 {
+    width: 41.66666667%;
+  }
+  .rozetta-translator-tool .col-lg-4,
+.rozetta-editor .col-lg-4 {
+    width: 33.33333333%;
+  }
+  .rozetta-translator-tool .col-lg-3,
+.rozetta-editor .col-lg-3 {
+    width: 25%;
+  }
+  .rozetta-translator-tool .col-lg-2,
+.rozetta-editor .col-lg-2 {
+    width: 16.66666667%;
+  }
+  .rozetta-translator-tool .col-lg-1,
+.rozetta-editor .col-lg-1 {
+    width: 8.33333333%;
+  }
+  .rozetta-translator-tool .col-lg-auto,
+.rozetta-editor .col-lg-auto {
+    width: auto;
+  }
+  .rozetta-translator-tool .hide-lg,
+.rozetta-editor .hide-lg {
+    display: none !important;
+  }
+  .rozetta-translator-tool .show-lg,
+.rozetta-editor .show-lg {
+    display: block !important;
+  }
+}
+@media (max-width: 840px) {
+  .rozetta-translator-tool .col-md-12,
+.rozetta-translator-tool .col-md-11,
+.rozetta-translator-tool .col-md-10,
+.rozetta-translator-tool .col-md-9,
+.rozetta-translator-tool .col-md-8,
+.rozetta-translator-tool .col-md-7,
+.rozetta-translator-tool .col-md-6,
+.rozetta-translator-tool .col-md-5,
+.rozetta-translator-tool .col-md-4,
+.rozetta-translator-tool .col-md-3,
+.rozetta-translator-tool .col-md-2,
+.rozetta-translator-tool .col-md-1,
+.rozetta-translator-tool .col-md-auto,
+.rozetta-editor .col-md-12,
+.rozetta-editor .col-md-11,
+.rozetta-editor .col-md-10,
+.rozetta-editor .col-md-9,
+.rozetta-editor .col-md-8,
+.rozetta-editor .col-md-7,
+.rozetta-editor .col-md-6,
+.rozetta-editor .col-md-5,
+.rozetta-editor .col-md-4,
+.rozetta-editor .col-md-3,
+.rozetta-editor .col-md-2,
+.rozetta-editor .col-md-1,
+.rozetta-editor .col-md-auto {
+    flex: none;
+  }
+  .rozetta-translator-tool .col-md-12,
+.rozetta-editor .col-md-12 {
+    width: 100%;
+  }
+  .rozetta-translator-tool .col-md-11,
+.rozetta-editor .col-md-11 {
+    width: 91.66666667%;
+  }
+  .rozetta-translator-tool .col-md-10,
+.rozetta-editor .col-md-10 {
+    width: 83.33333333%;
+  }
+  .rozetta-translator-tool .col-md-9,
+.rozetta-editor .col-md-9 {
+    width: 75%;
+  }
+  .rozetta-translator-tool .col-md-8,
+.rozetta-editor .col-md-8 {
+    width: 66.66666667%;
+  }
+  .rozetta-translator-tool .col-md-7,
+.rozetta-editor .col-md-7 {
+    width: 58.33333333%;
+  }
+  .rozetta-translator-tool .col-md-6,
+.rozetta-editor .col-md-6 {
+    width: 50%;
+  }
+  .rozetta-translator-tool .col-md-5,
+.rozetta-editor .col-md-5 {
+    width: 41.66666667%;
+  }
+  .rozetta-translator-tool .col-md-4,
+.rozetta-editor .col-md-4 {
+    width: 33.33333333%;
+  }
+  .rozetta-translator-tool .col-md-3,
+.rozetta-editor .col-md-3 {
+    width: 25%;
+  }
+  .rozetta-translator-tool .col-md-2,
+.rozetta-editor .col-md-2 {
+    width: 16.66666667%;
+  }
+  .rozetta-translator-tool .col-md-1,
+.rozetta-editor .col-md-1 {
+    width: 8.33333333%;
+  }
+  .rozetta-translator-tool .col-md-auto,
+.rozetta-editor .col-md-auto {
+    width: auto;
+  }
+  .rozetta-translator-tool .hide-md,
+.rozetta-editor .hide-md {
+    display: none !important;
+  }
+  .rozetta-translator-tool .show-md,
+.rozetta-editor .show-md {
+    display: block !important;
+  }
+}
+@media (max-width: 600px) {
+  .rozetta-translator-tool .col-sm-12,
+.rozetta-translator-tool .col-sm-11,
+.rozetta-translator-tool .col-sm-10,
+.rozetta-translator-tool .col-sm-9,
+.rozetta-translator-tool .col-sm-8,
+.rozetta-translator-tool .col-sm-7,
+.rozetta-translator-tool .col-sm-6,
+.rozetta-translator-tool .col-sm-5,
+.rozetta-translator-tool .col-sm-4,
+.rozetta-translator-tool .col-sm-3,
+.rozetta-translator-tool .col-sm-2,
+.rozetta-translator-tool .col-sm-1,
+.rozetta-translator-tool .col-sm-auto,
+.rozetta-editor .col-sm-12,
+.rozetta-editor .col-sm-11,
+.rozetta-editor .col-sm-10,
+.rozetta-editor .col-sm-9,
+.rozetta-editor .col-sm-8,
+.rozetta-editor .col-sm-7,
+.rozetta-editor .col-sm-6,
+.rozetta-editor .col-sm-5,
+.rozetta-editor .col-sm-4,
+.rozetta-editor .col-sm-3,
+.rozetta-editor .col-sm-2,
+.rozetta-editor .col-sm-1,
+.rozetta-editor .col-sm-auto {
+    flex: none;
+  }
+  .rozetta-translator-tool .col-sm-12,
+.rozetta-editor .col-sm-12 {
+    width: 100%;
+  }
+  .rozetta-translator-tool .col-sm-11,
+.rozetta-editor .col-sm-11 {
+    width: 91.66666667%;
+  }
+  .rozetta-translator-tool .col-sm-10,
+.rozetta-editor .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .rozetta-translator-tool .col-sm-9,
+.rozetta-editor .col-sm-9 {
+    width: 75%;
+  }
+  .rozetta-translator-tool .col-sm-8,
+.rozetta-editor .col-sm-8 {
+    width: 66.66666667%;
+  }
+  .rozetta-translator-tool .col-sm-7,
+.rozetta-editor .col-sm-7 {
+    width: 58.33333333%;
+  }
+  .rozetta-translator-tool .col-sm-6,
+.rozetta-editor .col-sm-6 {
+    width: 50%;
+  }
+  .rozetta-translator-tool .col-sm-5,
+.rozetta-editor .col-sm-5 {
+    width: 41.66666667%;
+  }
+  .rozetta-translator-tool .col-sm-4,
+.rozetta-editor .col-sm-4 {
+    width: 33.33333333%;
+  }
+  .rozetta-translator-tool .col-sm-3,
+.rozetta-editor .col-sm-3 {
+    width: 25%;
+  }
+  .rozetta-translator-tool .col-sm-2,
+.rozetta-editor .col-sm-2 {
+    width: 16.66666667%;
+  }
+  .rozetta-translator-tool .col-sm-1,
+.rozetta-editor .col-sm-1 {
+    width: 8.33333333%;
+  }
+  .rozetta-translator-tool .col-sm-auto,
+.rozetta-editor .col-sm-auto {
+    width: auto;
+  }
+  .rozetta-translator-tool .hide-sm,
+.rozetta-editor .hide-sm {
+    display: none !important;
+  }
+  .rozetta-translator-tool .show-sm,
+.rozetta-editor .show-sm {
+    display: block !important;
+  }
+}
+@media (max-width: 480px) {
+  .rozetta-translator-tool .col-xs-12,
+.rozetta-translator-tool .col-xs-11,
+.rozetta-translator-tool .col-xs-10,
+.rozetta-translator-tool .col-xs-9,
+.rozetta-translator-tool .col-xs-8,
+.rozetta-translator-tool .col-xs-7,
+.rozetta-translator-tool .col-xs-6,
+.rozetta-translator-tool .col-xs-5,
+.rozetta-translator-tool .col-xs-4,
+.rozetta-translator-tool .col-xs-3,
+.rozetta-translator-tool .col-xs-2,
+.rozetta-translator-tool .col-xs-1,
+.rozetta-translator-tool .col-xs-auto,
+.rozetta-editor .col-xs-12,
+.rozetta-editor .col-xs-11,
+.rozetta-editor .col-xs-10,
+.rozetta-editor .col-xs-9,
+.rozetta-editor .col-xs-8,
+.rozetta-editor .col-xs-7,
+.rozetta-editor .col-xs-6,
+.rozetta-editor .col-xs-5,
+.rozetta-editor .col-xs-4,
+.rozetta-editor .col-xs-3,
+.rozetta-editor .col-xs-2,
+.rozetta-editor .col-xs-1,
+.rozetta-editor .col-xs-auto {
+    flex: none;
+  }
+  .rozetta-translator-tool .col-xs-12,
+.rozetta-editor .col-xs-12 {
+    width: 100%;
+  }
+  .rozetta-translator-tool .col-xs-11,
+.rozetta-editor .col-xs-11 {
+    width: 91.66666667%;
+  }
+  .rozetta-translator-tool .col-xs-10,
+.rozetta-editor .col-xs-10 {
+    width: 83.33333333%;
+  }
+  .rozetta-translator-tool .col-xs-9,
+.rozetta-editor .col-xs-9 {
+    width: 75%;
+  }
+  .rozetta-translator-tool .col-xs-8,
+.rozetta-editor .col-xs-8 {
+    width: 66.66666667%;
+  }
+  .rozetta-translator-tool .col-xs-7,
+.rozetta-editor .col-xs-7 {
+    width: 58.33333333%;
+  }
+  .rozetta-translator-tool .col-xs-6,
+.rozetta-editor .col-xs-6 {
+    width: 50%;
+  }
+  .rozetta-translator-tool .col-xs-5,
+.rozetta-editor .col-xs-5 {
+    width: 41.66666667%;
+  }
+  .rozetta-translator-tool .col-xs-4,
+.rozetta-editor .col-xs-4 {
+    width: 33.33333333%;
+  }
+  .rozetta-translator-tool .col-xs-3,
+.rozetta-editor .col-xs-3 {
+    width: 25%;
+  }
+  .rozetta-translator-tool .col-xs-2,
+.rozetta-editor .col-xs-2 {
+    width: 16.66666667%;
+  }
+  .rozetta-translator-tool .col-xs-1,
+.rozetta-editor .col-xs-1 {
+    width: 8.33333333%;
+  }
+  .rozetta-translator-tool .col-xs-auto,
+.rozetta-editor .col-xs-auto {
+    width: auto;
+  }
+  .rozetta-translator-tool .hide-xs,
+.rozetta-editor .hide-xs {
+    display: none !important;
+  }
+  .rozetta-translator-tool .show-xs,
+.rozetta-editor .show-xs {
+    display: block !important;
+  }
+}
+.rozetta-translator-tool .hero,
+.rozetta-editor .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+.rozetta-translator-tool .hero.hero-sm,
+.rozetta-editor .hero.hero-sm {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.rozetta-translator-tool .hero.hero-lg,
+.rozetta-editor .hero.hero-lg {
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+.rozetta-translator-tool .hero .hero-body,
+.rozetta-editor .hero .hero-body {
+  padding: 0.4rem;
+}
+.rozetta-translator-tool .navbar,
+.rozetta-editor .navbar {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rozetta-translator-tool .navbar .navbar-section,
+.rozetta-editor .navbar .navbar-section {
+  align-items: center;
+  display: flex;
+  flex: 1 0 0;
+}
+.rozetta-translator-tool .navbar .navbar-section:not(:first-child):last-child,
+.rozetta-editor .navbar .navbar-section:not(:first-child):last-child {
+  justify-content: flex-end;
+}
+.rozetta-translator-tool .navbar .navbar-center,
+.rozetta-editor .navbar .navbar-center {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+}
+.rozetta-translator-tool .navbar .navbar-brand,
+.rozetta-editor .navbar .navbar-brand {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.rozetta-translator-tool .accordion input:checked ~ .accordion-header > .icon:first-child, .rozetta-translator-tool .accordion[open] .accordion-header > .icon:first-child,
+.rozetta-editor .accordion input:checked ~ .accordion-header > .icon:first-child,
+.rozetta-editor .accordion[open] .accordion-header > .icon:first-child {
+  transform: rotate(90deg);
+}
+.rozetta-translator-tool .accordion input:checked ~ .accordion-body, .rozetta-translator-tool .accordion[open] .accordion-body,
+.rozetta-editor .accordion input:checked ~ .accordion-body,
+.rozetta-editor .accordion[open] .accordion-body {
+  max-height: 50rem;
+}
+.rozetta-translator-tool .accordion .accordion-header,
+.rozetta-editor .accordion .accordion-header {
+  display: block;
+  padding: 0.2rem 0.4rem;
+}
+.rozetta-translator-tool .accordion .accordion-header .icon,
+.rozetta-editor .accordion .accordion-header .icon {
+  transition: transform 0.25s;
+}
+.rozetta-translator-tool .accordion .accordion-body,
+.rozetta-editor .accordion .accordion-body {
+  margin-bottom: 0.4rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s;
+}
+.rozetta-translator-tool summary.accordion-header::-webkit-details-marker,
+.rozetta-editor summary.accordion-header::-webkit-details-marker {
+  display: none;
+}
+.rozetta-translator-tool .avatar,
+.rozetta-editor .avatar {
+  font-size: 0.8rem;
+  height: 1.6rem;
+  width: 1.6rem;
+  background: #5755d9;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.85);
+  display: inline-block;
+  font-weight: 300;
+  line-height: 1.25;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+}
+.rozetta-translator-tool .avatar.avatar-xs,
+.rozetta-editor .avatar.avatar-xs {
+  font-size: 0.4rem;
+  height: 0.8rem;
+  width: 0.8rem;
+}
+.rozetta-translator-tool .avatar.avatar-sm,
+.rozetta-editor .avatar.avatar-sm {
+  font-size: 0.6rem;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.rozetta-translator-tool .avatar.avatar-lg,
+.rozetta-editor .avatar.avatar-lg {
+  font-size: 1.2rem;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.rozetta-translator-tool .avatar.avatar-xl,
+.rozetta-editor .avatar.avatar-xl {
+  font-size: 1.6rem;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.rozetta-translator-tool .avatar img,
+.rozetta-editor .avatar img {
+  border-radius: 50%;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.rozetta-translator-tool .avatar .avatar-icon,
+.rozetta-translator-tool .avatar .avatar-presence,
+.rozetta-editor .avatar .avatar-icon,
+.rozetta-editor .avatar .avatar-presence {
+  background: #fff;
+  bottom: 14.64%;
+  height: 50%;
+  padding: 0.1rem;
+  position: absolute;
+  right: 14.64%;
+  transform: translate(50%, 50%);
+  width: 50%;
+  z-index: 2;
+}
+.rozetta-translator-tool .avatar .avatar-presence,
+.rozetta-editor .avatar .avatar-presence {
+  background: #bcc3ce;
+  box-shadow: 0 0 0 0.1rem #fff;
+  border-radius: 50%;
+  height: 0.5em;
+  width: 0.5em;
+}
+.rozetta-translator-tool .avatar .avatar-presence.online,
+.rozetta-editor .avatar .avatar-presence.online {
+  background: #32b643;
+}
+.rozetta-translator-tool .avatar .avatar-presence.busy,
+.rozetta-editor .avatar .avatar-presence.busy {
+  background: #e85600;
+}
+.rozetta-translator-tool .avatar .avatar-presence.away,
+.rozetta-editor .avatar .avatar-presence.away {
+  background: #ffb700;
+}
+.rozetta-translator-tool .avatar[data-initial]::before,
+.rozetta-editor .avatar[data-initial]::before {
+  color: currentColor;
+  content: attr(data-initial);
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.rozetta-translator-tool .badge,
+.rozetta-editor .badge {
+  position: relative;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .badge[data-badge]::after, .rozetta-translator-tool .badge:not([data-badge])::after,
+.rozetta-editor .badge[data-badge]::after,
+.rozetta-editor .badge:not([data-badge])::after {
+  background: #5755d9;
+  background-clip: padding-box;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 0.1rem #fff;
+  color: #fff;
+  content: attr(data-badge);
+  display: inline-block;
+  transform: translate(-0.05rem, -0.5rem);
+}
+.rozetta-translator-tool .badge[data-badge]::after,
+.rozetta-editor .badge[data-badge]::after {
+  font-size: 0.7rem;
+  height: 0.9rem;
+  line-height: 1;
+  min-width: 0.9rem;
+  padding: 0.1rem 0.2rem;
+  text-align: center;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .badge:not([data-badge])::after, .rozetta-translator-tool .badge[data-badge=""]::after,
+.rozetta-editor .badge:not([data-badge])::after,
+.rozetta-editor .badge[data-badge=""]::after {
+  height: 6px;
+  min-width: 6px;
+  padding: 0;
+  width: 6px;
+}
+.rozetta-translator-tool .badge.btn::after,
+.rozetta-editor .badge.btn::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.rozetta-translator-tool .badge.avatar::after,
+.rozetta-editor .badge.avatar::after {
+  position: absolute;
+  top: 14.64%;
+  right: 14.64%;
+  transform: translate(50%, -50%);
+  z-index: 100;
+}
+.rozetta-translator-tool .breadcrumb,
+.rozetta-editor .breadcrumb {
+  list-style: none;
+  margin: 0.2rem 0;
+  padding: 0.2rem 0;
+}
+.rozetta-translator-tool .breadcrumb .breadcrumb-item,
+.rozetta-editor .breadcrumb .breadcrumb-item {
+  color: #66758c;
+  display: inline-block;
+  margin: 0;
+  padding: 0.2rem 0;
+}
+.rozetta-translator-tool .breadcrumb .breadcrumb-item:not(:last-child),
+.rozetta-editor .breadcrumb .breadcrumb-item:not(:last-child) {
+  margin-right: 0.2rem;
+}
+.rozetta-translator-tool .breadcrumb .breadcrumb-item:not(:last-child) a,
+.rozetta-editor .breadcrumb .breadcrumb-item:not(:last-child) a {
+  color: #66758c;
+}
+.rozetta-translator-tool .breadcrumb .breadcrumb-item:not(:first-child)::before,
+.rozetta-editor .breadcrumb .breadcrumb-item:not(:first-child)::before {
+  color: #66758c;
+  content: "/";
+  padding-right: 0.4rem;
+}
+.rozetta-translator-tool .bar,
+.rozetta-editor .bar {
+  background: #eef0f3;
+  border-radius: 0.1rem;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 0.8rem;
+  width: 100%;
+}
+.rozetta-translator-tool .bar.bar-sm,
+.rozetta-editor .bar.bar-sm {
+  height: 0.2rem;
+}
+.rozetta-translator-tool .bar .bar-item,
+.rozetta-editor .bar .bar-item {
+  background: #5755d9;
+  color: #fff;
+  display: block;
+  font-size: 0.7rem;
+  flex-shrink: 0;
+  line-height: 0.8rem;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  width: 0;
+}
+.rozetta-translator-tool .bar .bar-item:first-child,
+.rozetta-editor .bar .bar-item:first-child {
+  border-bottom-left-radius: 0.1rem;
+  border-top-left-radius: 0.1rem;
+}
+.rozetta-translator-tool .bar .bar-item:last-child,
+.rozetta-editor .bar .bar-item:last-child {
+  border-bottom-right-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  flex-shrink: 1;
+}
+.rozetta-translator-tool .bar-slider,
+.rozetta-editor .bar-slider {
+  height: 0.1rem;
+  margin: 0.4rem 0;
+  position: relative;
+}
+.rozetta-translator-tool .bar-slider .bar-item,
+.rozetta-editor .bar-slider .bar-item {
+  left: 0;
+  padding: 0;
+  position: absolute;
+}
+.rozetta-translator-tool .bar-slider .bar-item:not(:last-child):first-child,
+.rozetta-editor .bar-slider .bar-item:not(:last-child):first-child {
+  background: #eef0f3;
+  z-index: 1;
+}
+.rozetta-translator-tool .bar-slider .bar-slider-btn,
+.rozetta-editor .bar-slider .bar-slider-btn {
+  background: #5755d9;
+  border: 0;
+  border-radius: 50%;
+  height: 0.6rem;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 0.6rem;
+}
+.rozetta-translator-tool .bar-slider .bar-slider-btn:active,
+.rozetta-editor .bar-slider .bar-slider-btn:active {
+  box-shadow: 0 0 0 0.1rem #5755d9;
+}
+.rozetta-translator-tool .card,
+.rozetta-editor .card {
+  background: #fff;
+  border: 0.05rem solid #dadee4;
+  border-radius: 0.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.rozetta-translator-tool .card .card-header,
+.rozetta-translator-tool .card .card-body,
+.rozetta-translator-tool .card .card-footer,
+.rozetta-editor .card .card-header,
+.rozetta-editor .card .card-body,
+.rozetta-editor .card .card-footer {
+  padding: 0.8rem;
+  padding-bottom: 0;
+}
+.rozetta-translator-tool .card .card-header:last-child,
+.rozetta-translator-tool .card .card-body:last-child,
+.rozetta-translator-tool .card .card-footer:last-child,
+.rozetta-editor .card .card-header:last-child,
+.rozetta-editor .card .card-body:last-child,
+.rozetta-editor .card .card-footer:last-child {
+  padding-bottom: 0.8rem;
+}
+.rozetta-translator-tool .card .card-body,
+.rozetta-editor .card .card-body {
+  flex: 1 1 auto;
+}
+.rozetta-translator-tool .card .card-image,
+.rozetta-editor .card .card-image {
+  padding-top: 0.8rem;
+}
+.rozetta-translator-tool .card .card-image:first-child,
+.rozetta-editor .card .card-image:first-child {
+  padding-top: 0;
+}
+.rozetta-translator-tool .card .card-image:first-child img,
+.rozetta-editor .card .card-image:first-child img {
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+}
+.rozetta-translator-tool .card .card-image:last-child img,
+.rozetta-editor .card .card-image:last-child img {
+  border-bottom-left-radius: 0.1rem;
+  border-bottom-right-radius: 0.1rem;
+}
+.rozetta-translator-tool .chip,
+.rozetta-editor .chip {
+  align-items: center;
+  background: #eef0f3;
+  border-radius: 5rem;
+  display: inline-flex;
+  font-size: 90%;
+  height: 1.2rem;
+  line-height: 0.8rem;
+  margin: 0.1rem;
+  max-width: 320px;
+  overflow: hidden;
+  padding: 0.2rem 0.4rem;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .chip.active,
+.rozetta-editor .chip.active {
+  background: #5755d9;
+  color: #fff;
+}
+.rozetta-translator-tool .chip .avatar,
+.rozetta-editor .chip .avatar {
+  margin-left: -0.4rem;
+  margin-right: 0.2rem;
+}
+.rozetta-translator-tool .chip .btn-clear,
+.rozetta-editor .chip .btn-clear {
+  border-radius: 50%;
+  transform: scale(0.75);
+}
+.rozetta-translator-tool .dropdown,
+.rozetta-editor .dropdown {
+  display: inline-block;
+  position: relative;
+}
+.rozetta-translator-tool .dropdown .menu,
+.rozetta-editor .dropdown .menu {
+  animation: slide-down 0.15s ease 1;
+  display: none;
+  left: 0;
+  max-height: 50vh;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+}
+.rozetta-translator-tool .dropdown.dropdown-right .menu,
+.rozetta-editor .dropdown.dropdown-right .menu {
+  left: auto;
+  right: 0;
+}
+.rozetta-translator-tool .dropdown.active .menu,
+.rozetta-translator-tool .dropdown .dropdown-toggle:focus + .menu,
+.rozetta-translator-tool .dropdown .menu:hover,
+.rozetta-editor .dropdown.active .menu,
+.rozetta-editor .dropdown .dropdown-toggle:focus + .menu,
+.rozetta-editor .dropdown .menu:hover {
+  display: block;
+}
+.rozetta-translator-tool .dropdown .btn-group .dropdown-toggle:nth-last-child(2),
+.rozetta-editor .dropdown .btn-group .dropdown-toggle:nth-last-child(2) {
+  border-bottom-right-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+}
+.rozetta-translator-tool .empty,
+.rozetta-editor .empty {
+  background: #f7f8f9;
+  border-radius: 0.1rem;
+  color: #66758c;
+  text-align: center;
+  padding: 3.2rem 1.6rem;
+}
+.rozetta-translator-tool .empty .empty-icon,
+.rozetta-editor .empty .empty-icon {
+  margin-bottom: 0.8rem;
+}
+.rozetta-translator-tool .empty .empty-title,
+.rozetta-translator-tool .empty .empty-subtitle,
+.rozetta-editor .empty .empty-title,
+.rozetta-editor .empty .empty-subtitle {
+  margin: 0.4rem auto;
+}
+.rozetta-translator-tool .empty .empty-action,
+.rozetta-editor .empty .empty-action {
+  margin-top: 0.8rem;
+}
+.rozetta-translator-tool .menu,
+.rozetta-editor .menu {
+  box-shadow: 0 0.05rem 0.2rem rgba(48, 55, 66, 0.3);
+  background: #fff;
+  border-radius: 0.1rem;
+  list-style: none;
+  margin: 0;
+  min-width: 180px;
+  padding: 0.4rem;
+  transform: translateY(0.2rem);
+  z-index: 300;
+}
+.rozetta-translator-tool .menu.menu-nav,
+.rozetta-editor .menu.menu-nav {
+  background: transparent;
+  box-shadow: none;
+}
+.rozetta-translator-tool .menu .menu-item,
+.rozetta-editor .menu .menu-item {
+  margin-top: 0;
+  padding: 0 0.4rem;
+  position: relative;
+  text-decoration: none;
+}
+.rozetta-translator-tool .menu .menu-item > a,
+.rozetta-editor .menu .menu-item > a {
+  border-radius: 0.1rem;
+  color: inherit;
+  display: block;
+  margin: 0 -0.4rem;
+  padding: 0.2rem 0.4rem;
+  text-decoration: none;
+}
+.rozetta-translator-tool .menu .menu-item > a:focus, .rozetta-translator-tool .menu .menu-item > a:hover,
+.rozetta-editor .menu .menu-item > a:focus,
+.rozetta-editor .menu .menu-item > a:hover {
+  background: #f1f1fc;
+  color: #5755d9;
+}
+.rozetta-translator-tool .menu .menu-item > a:active, .rozetta-translator-tool .menu .menu-item > a.active,
+.rozetta-editor .menu .menu-item > a:active,
+.rozetta-editor .menu .menu-item > a.active {
+  background: #f1f1fc;
+  color: #5755d9;
+}
+.rozetta-translator-tool .menu .menu-item .form-checkbox,
+.rozetta-translator-tool .menu .menu-item .form-radio,
+.rozetta-translator-tool .menu .menu-item .form-switch,
+.rozetta-editor .menu .menu-item .form-checkbox,
+.rozetta-editor .menu .menu-item .form-radio,
+.rozetta-editor .menu .menu-item .form-switch {
+  margin: 0.1rem 0;
+}
+.rozetta-translator-tool .menu .menu-item + .menu-item,
+.rozetta-editor .menu .menu-item + .menu-item {
+  margin-top: 0.2rem;
+}
+.rozetta-translator-tool .menu .menu-badge,
+.rozetta-editor .menu .menu-badge {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.rozetta-translator-tool .menu .menu-badge .label,
+.rozetta-editor .menu .menu-badge .label {
+  margin-right: 0.4rem;
+}
+.rozetta-translator-tool .modal,
+.rozetta-editor .modal {
+  align-items: center;
+  bottom: 0;
+  display: none;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0.4rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.rozetta-translator-tool .modal:target, .rozetta-translator-tool .modal.active,
+.rozetta-editor .modal:target,
+.rozetta-editor .modal.active {
+  display: flex;
+  opacity: 1;
+  z-index: 400;
+}
+.rozetta-translator-tool .modal:target .modal-overlay, .rozetta-translator-tool .modal.active .modal-overlay,
+.rozetta-editor .modal:target .modal-overlay,
+.rozetta-editor .modal.active .modal-overlay {
+  background: rgba(247, 248, 249, 0.75);
+  bottom: 0;
+  cursor: default;
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.rozetta-translator-tool .modal:target .modal-container, .rozetta-translator-tool .modal.active .modal-container,
+.rozetta-editor .modal:target .modal-container,
+.rozetta-editor .modal.active .modal-container {
+  animation: slide-down 0.2s ease 1;
+  z-index: 1;
+}
+.rozetta-translator-tool .modal.modal-sm .modal-container,
+.rozetta-editor .modal.modal-sm .modal-container {
+  max-width: 320px;
+  padding: 0 0.4rem;
+}
+.rozetta-translator-tool .modal.modal-lg .modal-overlay,
+.rozetta-editor .modal.modal-lg .modal-overlay {
+  background: #fff;
+}
+.rozetta-translator-tool .modal.modal-lg .modal-container,
+.rozetta-editor .modal.modal-lg .modal-container {
+  box-shadow: none;
+  max-width: 960px;
+}
+.rozetta-translator-tool .modal-container,
+.rozetta-editor .modal-container {
+  box-shadow: 0 0.2rem 0.5rem rgba(48, 55, 66, 0.3);
+  background: #fff;
+  border-radius: 0.1rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 75vh;
+  max-width: 640px;
+  padding: 0 0.8rem;
+  width: 100%;
+}
+.rozetta-translator-tool .modal-container.modal-fullheight,
+.rozetta-editor .modal-container.modal-fullheight {
+  max-height: 100vh;
+}
+.rozetta-translator-tool .modal-container .modal-header,
+.rozetta-editor .modal-container .modal-header {
+  color: #303742;
+  padding: 0.8rem;
+}
+.rozetta-translator-tool .modal-container .modal-body,
+.rozetta-editor .modal-container .modal-body {
+  overflow-y: auto;
+  padding: 0.8rem;
+  position: relative;
+}
+.rozetta-translator-tool .modal-container .modal-footer,
+.rozetta-editor .modal-container .modal-footer {
+  padding: 0.8rem;
+  text-align: right;
+}
+.rozetta-translator-tool .nav,
+.rozetta-editor .nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0.2rem 0;
+}
+.rozetta-translator-tool .nav .nav-item a,
+.rozetta-editor .nav .nav-item a {
+  color: #66758c;
+  padding: 0.2rem 0.4rem;
+  text-decoration: none;
+}
+.rozetta-translator-tool .nav .nav-item a:focus, .rozetta-translator-tool .nav .nav-item a:hover,
+.rozetta-editor .nav .nav-item a:focus,
+.rozetta-editor .nav .nav-item a:hover {
+  color: #5755d9;
+}
+.rozetta-translator-tool .nav .nav-item.active > a,
+.rozetta-editor .nav .nav-item.active > a {
+  color: #505c6e;
+  font-weight: bold;
+}
+.rozetta-translator-tool .nav .nav-item.active > a:focus, .rozetta-translator-tool .nav .nav-item.active > a:hover,
+.rozetta-editor .nav .nav-item.active > a:focus,
+.rozetta-editor .nav .nav-item.active > a:hover {
+  color: #5755d9;
+}
+.rozetta-translator-tool .nav .nav,
+.rozetta-editor .nav .nav {
+  margin-bottom: 0.4rem;
+  margin-left: 0.8rem;
+}
+.rozetta-translator-tool .pagination,
+.rozetta-editor .pagination {
+  display: flex;
+  list-style: none;
+  margin: 0.2rem 0;
+  padding: 0.2rem 0;
+}
+.rozetta-translator-tool .pagination .page-item,
+.rozetta-editor .pagination .page-item {
+  margin: 0.2rem 0.05rem;
+}
+.rozetta-translator-tool .pagination .page-item span,
+.rozetta-editor .pagination .page-item span {
+  display: inline-block;
+  padding: 0.2rem 0.2rem;
+}
+.rozetta-translator-tool .pagination .page-item a,
+.rozetta-editor .pagination .page-item a {
+  border-radius: 0.1rem;
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  text-decoration: none;
+}
+.rozetta-translator-tool .pagination .page-item a:focus, .rozetta-translator-tool .pagination .page-item a:hover,
+.rozetta-editor .pagination .page-item a:focus,
+.rozetta-editor .pagination .page-item a:hover {
+  color: #5755d9;
+}
+.rozetta-translator-tool .pagination .page-item.disabled a,
+.rozetta-editor .pagination .page-item.disabled a {
+  cursor: default;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.rozetta-translator-tool .pagination .page-item.active a,
+.rozetta-editor .pagination .page-item.active a {
+  background: #5755d9;
+  color: #fff;
+}
+.rozetta-translator-tool .pagination .page-item.page-prev, .rozetta-translator-tool .pagination .page-item.page-next,
+.rozetta-editor .pagination .page-item.page-prev,
+.rozetta-editor .pagination .page-item.page-next {
+  flex: 1 0 50%;
+}
+.rozetta-translator-tool .pagination .page-item.page-next,
+.rozetta-editor .pagination .page-item.page-next {
+  text-align: right;
+}
+.rozetta-translator-tool .pagination .page-item .page-item-title,
+.rozetta-editor .pagination .page-item .page-item-title {
+  margin: 0;
+}
+.rozetta-translator-tool .pagination .page-item .page-item-subtitle,
+.rozetta-editor .pagination .page-item .page-item-subtitle {
+  margin: 0;
+  opacity: 0.5;
+}
+.rozetta-translator-tool .panel,
+.rozetta-editor .panel {
+  border: 0.05rem solid #dadee4;
+  border-radius: 0.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.rozetta-translator-tool .panel .panel-header,
+.rozetta-translator-tool .panel .panel-footer,
+.rozetta-editor .panel .panel-header,
+.rozetta-editor .panel .panel-footer {
+  flex: 0 0 auto;
+  padding: 0.8rem;
+}
+.rozetta-translator-tool .panel .panel-nav,
+.rozetta-editor .panel .panel-nav {
+  flex: 0 0 auto;
+}
+.rozetta-translator-tool .panel .panel-body,
+.rozetta-editor .panel .panel-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 0 0.8rem;
+}
+.rozetta-translator-tool .popover,
+.rozetta-editor .popover {
+  display: inline-block;
+  position: relative;
+}
+.rozetta-translator-tool .popover .popover-container,
+.rozetta-editor .popover .popover-container {
+  left: 50%;
+  opacity: 0;
+  padding: 0.4rem;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.2s;
+  width: 320px;
+  z-index: 300;
+}
+.rozetta-translator-tool .popover *:focus + .popover-container, .rozetta-translator-tool .popover:hover .popover-container,
+.rozetta-editor .popover *:focus + .popover-container,
+.rozetta-editor .popover:hover .popover-container {
+  display: block;
+  opacity: 1;
+  transform: translate(-50%, -100%) scale(1);
+}
+.rozetta-translator-tool .popover.popover-right .popover-container,
+.rozetta-editor .popover.popover-right .popover-container {
+  left: 100%;
+  top: 50%;
+}
+.rozetta-translator-tool .popover.popover-right *:focus + .popover-container, .rozetta-translator-tool .popover.popover-right:hover .popover-container,
+.rozetta-editor .popover.popover-right *:focus + .popover-container,
+.rozetta-editor .popover.popover-right:hover .popover-container {
+  transform: translate(0, -50%) scale(1);
+}
+.rozetta-translator-tool .popover.popover-bottom .popover-container,
+.rozetta-editor .popover.popover-bottom .popover-container {
+  left: 50%;
+  top: 100%;
+}
+.rozetta-translator-tool .popover.popover-bottom *:focus + .popover-container, .rozetta-translator-tool .popover.popover-bottom:hover .popover-container,
+.rozetta-editor .popover.popover-bottom *:focus + .popover-container,
+.rozetta-editor .popover.popover-bottom:hover .popover-container {
+  transform: translate(-50%, 0) scale(1);
+}
+.rozetta-translator-tool .popover.popover-left .popover-container,
+.rozetta-editor .popover.popover-left .popover-container {
+  left: 0;
+  top: 50%;
+}
+.rozetta-translator-tool .popover.popover-left *:focus + .popover-container, .rozetta-translator-tool .popover.popover-left:hover .popover-container,
+.rozetta-editor .popover.popover-left *:focus + .popover-container,
+.rozetta-editor .popover.popover-left:hover .popover-container {
+  transform: translate(-100%, -50%) scale(1);
+}
+.rozetta-translator-tool .popover .card,
+.rozetta-editor .popover .card {
+  box-shadow: 0 0.2rem 0.5rem rgba(48, 55, 66, 0.3);
+  border: 0;
+}
+.rozetta-translator-tool .step,
+.rozetta-editor .step {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  margin: 0.2rem 0;
+  width: 100%;
+}
+.rozetta-translator-tool .step .step-item,
+.rozetta-editor .step .step-item {
+  flex: 1 1 0;
+  margin-top: 0;
+  min-height: 1rem;
+  text-align: center;
+  position: relative;
+}
+.rozetta-translator-tool .step .step-item:not(:first-child)::before,
+.rozetta-editor .step .step-item:not(:first-child)::before {
+  background: #5755d9;
+  content: "";
+  height: 2px;
+  left: -50%;
+  position: absolute;
+  top: 9px;
+  width: 100%;
+}
+.rozetta-translator-tool .step .step-item a,
+.rozetta-editor .step .step-item a {
+  color: #5755d9;
+  display: inline-block;
+  padding: 20px 10px 0;
+  text-decoration: none;
+}
+.rozetta-translator-tool .step .step-item a::before,
+.rozetta-editor .step .step-item a::before {
+  background: #5755d9;
+  border: 0.1rem solid #fff;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0.6rem;
+  left: 50%;
+  position: absolute;
+  top: 0.2rem;
+  transform: translateX(-50%);
+  width: 0.6rem;
+  z-index: 1;
+}
+.rozetta-translator-tool .step .step-item.active a::before,
+.rozetta-editor .step .step-item.active a::before {
+  background: #fff;
+  border: 0.1rem solid #5755d9;
+}
+.rozetta-translator-tool .step .step-item.active ~ .step-item::before,
+.rozetta-editor .step .step-item.active ~ .step-item::before {
+  background: #dadee4;
+}
+.rozetta-translator-tool .step .step-item.active ~ .step-item a,
+.rozetta-editor .step .step-item.active ~ .step-item a {
+  color: #bcc3ce;
+}
+.rozetta-translator-tool .step .step-item.active ~ .step-item a::before,
+.rozetta-editor .step .step-item.active ~ .step-item a::before {
+  background: #dadee4;
+}
+.rozetta-translator-tool .tab,
+.rozetta-editor .tab {
+  align-items: center;
+  border-bottom: 0.05rem solid #dadee4;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0.2rem 0 0.15rem 0;
+}
+.rozetta-translator-tool .tab .tab-item,
+.rozetta-editor .tab .tab-item {
+  margin-top: 0;
+}
+.rozetta-translator-tool .tab .tab-item a,
+.rozetta-editor .tab .tab-item a {
+  border-bottom: 0.1rem solid transparent;
+  color: inherit;
+  display: block;
+  margin: 0 0.4rem 0 0;
+  padding: 0.4rem 0.2rem 0.3rem 0.2rem;
+  text-decoration: none;
+}
+.rozetta-translator-tool .tab .tab-item a:focus, .rozetta-translator-tool .tab .tab-item a:hover,
+.rozetta-editor .tab .tab-item a:focus,
+.rozetta-editor .tab .tab-item a:hover {
+  color: #5755d9;
+}
+.rozetta-translator-tool .tab .tab-item.active a,
+.rozetta-translator-tool .tab .tab-item a.active,
+.rozetta-editor .tab .tab-item.active a,
+.rozetta-editor .tab .tab-item a.active {
+  border-bottom-color: #5755d9;
+  color: #5755d9;
+}
+.rozetta-translator-tool .tab .tab-item.tab-action,
+.rozetta-editor .tab .tab-item.tab-action {
+  flex: 1 0 auto;
+  text-align: right;
+}
+.rozetta-translator-tool .tab .tab-item .btn-clear,
+.rozetta-editor .tab .tab-item .btn-clear {
+  margin-top: -0.2rem;
+}
+.rozetta-translator-tool .tab.tab-block .tab-item,
+.rozetta-editor .tab.tab-block .tab-item {
+  flex: 1 0 0;
+  text-align: center;
+}
+.rozetta-translator-tool .tab.tab-block .tab-item a,
+.rozetta-editor .tab.tab-block .tab-item a {
+  margin: 0;
+}
+.rozetta-translator-tool .tab.tab-block .tab-item .badge[data-badge]::after,
+.rozetta-editor .tab.tab-block .tab-item .badge[data-badge]::after {
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+  transform: translate(0, 0);
+}
+.rozetta-translator-tool .tab:not(.tab-block) .badge,
+.rozetta-editor .tab:not(.tab-block) .badge {
+  padding-right: 0;
+}
+.rozetta-translator-tool .tile,
+.rozetta-editor .tile {
+  align-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+.rozetta-translator-tool .tile .tile-icon,
+.rozetta-translator-tool .tile .tile-action,
+.rozetta-editor .tile .tile-icon,
+.rozetta-editor .tile .tile-action {
+  flex: 0 0 auto;
+}
+.rozetta-translator-tool .tile .tile-content,
+.rozetta-editor .tile .tile-content {
+  flex: 1 1 auto;
+}
+.rozetta-translator-tool .tile .tile-content:not(:first-child),
+.rozetta-editor .tile .tile-content:not(:first-child) {
+  padding-left: 0.4rem;
+}
+.rozetta-translator-tool .tile .tile-content:not(:last-child),
+.rozetta-editor .tile .tile-content:not(:last-child) {
+  padding-right: 0.4rem;
+}
+.rozetta-translator-tool .tile .tile-title,
+.rozetta-translator-tool .tile .tile-subtitle,
+.rozetta-editor .tile .tile-title,
+.rozetta-editor .tile .tile-subtitle {
+  line-height: 1.2rem;
+}
+.rozetta-translator-tool .tile.tile-centered,
+.rozetta-editor .tile.tile-centered {
+  align-items: center;
+}
+.rozetta-translator-tool .tile.tile-centered .tile-content,
+.rozetta-editor .tile.tile-centered .tile-content {
+  overflow: hidden;
+}
+.rozetta-translator-tool .tile.tile-centered .tile-title,
+.rozetta-translator-tool .tile.tile-centered .tile-subtitle,
+.rozetta-editor .tile.tile-centered .tile-title,
+.rozetta-editor .tile.tile-centered .tile-subtitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.rozetta-translator-tool .toast,
+.rozetta-editor .toast {
+  background: rgba(48, 55, 66, 0.95);
+  border-color: #303742;
+  border: 0.05rem solid #303742;
+  border-radius: 0.1rem;
+  color: #fff;
+  display: block;
+  padding: 0.4rem;
+  width: 100%;
+}
+.rozetta-translator-tool .toast.toast-primary,
+.rozetta-editor .toast.toast-primary {
+  background: rgba(87, 85, 217, 0.95);
+  border-color: #5755d9;
+}
+.rozetta-translator-tool .toast.toast-success,
+.rozetta-editor .toast.toast-success {
+  background: rgba(50, 182, 67, 0.95);
+  border-color: #32b643;
+}
+.rozetta-translator-tool .toast.toast-warning,
+.rozetta-editor .toast.toast-warning {
+  background: rgba(255, 183, 0, 0.95);
+  border-color: #ffb700;
+}
+.rozetta-translator-tool .toast.toast-error,
+.rozetta-editor .toast.toast-error {
+  background: rgba(232, 86, 0, 0.95);
+  border-color: #e85600;
+}
+.rozetta-translator-tool .toast a,
+.rozetta-editor .toast a {
+  color: #fff;
+  text-decoration: underline;
+}
+.rozetta-translator-tool .toast a:focus, .rozetta-translator-tool .toast a:hover, .rozetta-translator-tool .toast a:active, .rozetta-translator-tool .toast a.active,
+.rozetta-editor .toast a:focus,
+.rozetta-editor .toast a:hover,
+.rozetta-editor .toast a:active,
+.rozetta-editor .toast a.active {
+  opacity: 0.75;
+}
+.rozetta-translator-tool .toast .btn-clear,
+.rozetta-editor .toast .btn-clear {
+  margin: 0.1rem;
+}
+.rozetta-translator-tool .toast p:last-child,
+.rozetta-editor .toast p:last-child {
+  margin-bottom: 0;
+}
+.rozetta-translator-tool .tooltip,
+.rozetta-editor .tooltip {
+  position: relative;
+}
+.rozetta-translator-tool .tooltip::after,
+.rozetta-editor .tooltip::after {
+  background: rgba(48, 55, 66, 0.95);
+  border-radius: 0.1rem;
+  bottom: 100%;
+  color: #fff;
+  content: attr(data-tooltip);
+  display: block;
+  font-size: 0.7rem;
+  left: 50%;
+  max-width: 320px;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0.2rem 0.4rem;
+  pointer-events: none;
+  position: absolute;
+  text-overflow: ellipsis;
+  transform: translate(-50%, 0.4rem);
+  transition: opacity 0.2s, transform 0.2s;
+  white-space: pre;
+  z-index: 300;
+}
+.rozetta-translator-tool .tooltip:focus::after, .rozetta-translator-tool .tooltip:hover::after,
+.rozetta-editor .tooltip:focus::after,
+.rozetta-editor .tooltip:hover::after {
+  opacity: 1;
+  transform: translate(-50%, -0.2rem);
+}
+.rozetta-translator-tool .tooltip[disabled], .rozetta-translator-tool .tooltip.disabled,
+.rozetta-editor .tooltip[disabled],
+.rozetta-editor .tooltip.disabled {
+  pointer-events: auto;
+}
+.rozetta-translator-tool .tooltip.tooltip-right::after,
+.rozetta-editor .tooltip.tooltip-right::after {
+  bottom: 50%;
+  left: 100%;
+  transform: translate(-0.2rem, 50%);
+}
+.rozetta-translator-tool .tooltip.tooltip-right:focus::after, .rozetta-translator-tool .tooltip.tooltip-right:hover::after,
+.rozetta-editor .tooltip.tooltip-right:focus::after,
+.rozetta-editor .tooltip.tooltip-right:hover::after {
+  transform: translate(0.2rem, 50%);
+}
+.rozetta-translator-tool .tooltip.tooltip-bottom::after,
+.rozetta-editor .tooltip.tooltip-bottom::after {
+  bottom: auto;
+  top: 100%;
+  transform: translate(-50%, -0.4rem);
+}
+.rozetta-translator-tool .tooltip.tooltip-bottom:focus::after, .rozetta-translator-tool .tooltip.tooltip-bottom:hover::after,
+.rozetta-editor .tooltip.tooltip-bottom:focus::after,
+.rozetta-editor .tooltip.tooltip-bottom:hover::after {
+  transform: translate(-50%, 0.2rem);
+}
+.rozetta-translator-tool .tooltip.tooltip-left::after,
+.rozetta-editor .tooltip.tooltip-left::after {
+  bottom: 50%;
+  left: auto;
+  right: 100%;
+  transform: translate(0.4rem, 50%);
+}
+.rozetta-translator-tool .tooltip.tooltip-left:focus::after, .rozetta-translator-tool .tooltip.tooltip-left:hover::after,
+.rozetta-editor .tooltip.tooltip-left:focus::after,
+.rozetta-editor .tooltip.tooltip-left:hover::after {
+  transform: translate(-0.2rem, 50%);
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-1.6rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rozetta-translator-tool .text-primary,
+.rozetta-editor .text-primary {
+  color: #5755d9 !important;
+}
+.rozetta-translator-tool a.text-primary:focus, .rozetta-translator-tool a.text-primary:hover,
+.rozetta-editor a.text-primary:focus,
+.rozetta-editor a.text-primary:hover {
+  color: #4240d4;
+}
+.rozetta-translator-tool a.text-primary:visited,
+.rozetta-editor a.text-primary:visited {
+  color: #6c6ade;
+}
+.rozetta-translator-tool .text-secondary,
+.rozetta-editor .text-secondary {
+  color: #e5e5f9 !important;
+}
+.rozetta-translator-tool a.text-secondary:focus, .rozetta-translator-tool a.text-secondary:hover,
+.rozetta-editor a.text-secondary:focus,
+.rozetta-editor a.text-secondary:hover {
+  color: #d1d0f4;
+}
+.rozetta-translator-tool a.text-secondary:visited,
+.rozetta-editor a.text-secondary:visited {
+  color: #fafafe;
+}
+.rozetta-translator-tool .text-gray,
+.rozetta-editor .text-gray {
+  color: #bcc3ce !important;
+}
+.rozetta-translator-tool a.text-gray:focus, .rozetta-translator-tool a.text-gray:hover,
+.rozetta-editor a.text-gray:focus,
+.rozetta-editor a.text-gray:hover {
+  color: #adb6c4;
+}
+.rozetta-translator-tool a.text-gray:visited,
+.rozetta-editor a.text-gray:visited {
+  color: #cbd0d9;
+}
+.rozetta-translator-tool .text-light,
+.rozetta-editor .text-light {
+  color: #fff !important;
+}
+.rozetta-translator-tool a.text-light:focus, .rozetta-translator-tool a.text-light:hover,
+.rozetta-editor a.text-light:focus,
+.rozetta-editor a.text-light:hover {
+  color: #f2f2f2;
+}
+.rozetta-translator-tool a.text-light:visited,
+.rozetta-editor a.text-light:visited {
+  color: white;
+}
+.rozetta-translator-tool .text-dark,
+.rozetta-editor .text-dark {
+  color: #3b4351 !important;
+}
+.rozetta-translator-tool a.text-dark:focus, .rozetta-translator-tool a.text-dark:hover,
+.rozetta-editor a.text-dark:focus,
+.rozetta-editor a.text-dark:hover {
+  color: #303742;
+}
+.rozetta-translator-tool a.text-dark:visited,
+.rozetta-editor a.text-dark:visited {
+  color: #455060;
+}
+.rozetta-translator-tool .text-success,
+.rozetta-editor .text-success {
+  color: #32b643 !important;
+}
+.rozetta-translator-tool a.text-success:focus, .rozetta-translator-tool a.text-success:hover,
+.rozetta-editor a.text-success:focus,
+.rozetta-editor a.text-success:hover {
+  color: #2da23c;
+}
+.rozetta-translator-tool a.text-success:visited,
+.rozetta-editor a.text-success:visited {
+  color: #39c94b;
+}
+.rozetta-translator-tool .text-warning,
+.rozetta-editor .text-warning {
+  color: #ffb700 !important;
+}
+.rozetta-translator-tool a.text-warning:focus, .rozetta-translator-tool a.text-warning:hover,
+.rozetta-editor a.text-warning:focus,
+.rozetta-editor a.text-warning:hover {
+  color: #e6a500;
+}
+.rozetta-translator-tool a.text-warning:visited,
+.rozetta-editor a.text-warning:visited {
+  color: #ffbe1a;
+}
+.rozetta-translator-tool .text-error,
+.rozetta-editor .text-error {
+  color: #e85600 !important;
+}
+.rozetta-translator-tool a.text-error:focus, .rozetta-translator-tool a.text-error:hover,
+.rozetta-editor a.text-error:focus,
+.rozetta-editor a.text-error:hover {
+  color: #cf4d00;
+}
+.rozetta-translator-tool a.text-error:visited,
+.rozetta-editor a.text-error:visited {
+  color: #ff6003;
+}
+.rozetta-translator-tool .bg-primary,
+.rozetta-editor .bg-primary {
+  background: #5755d9 !important;
+  color: #fff;
+}
+.rozetta-translator-tool .bg-secondary,
+.rozetta-editor .bg-secondary {
+  background: #f1f1fc !important;
+}
+.rozetta-translator-tool .bg-dark,
+.rozetta-editor .bg-dark {
+  background: #303742 !important;
+  color: #fff;
+}
+.rozetta-translator-tool .bg-gray,
+.rozetta-editor .bg-gray {
+  background: #f7f8f9 !important;
+}
+.rozetta-translator-tool .bg-success,
+.rozetta-editor .bg-success {
+  background: #32b643 !important;
+  color: #fff;
+}
+.rozetta-translator-tool .bg-warning,
+.rozetta-editor .bg-warning {
+  background: #ffb700 !important;
+  color: #fff;
+}
+.rozetta-translator-tool .bg-error,
+.rozetta-editor .bg-error {
+  background: #e85600 !important;
+  color: #fff;
+}
+.rozetta-translator-tool .c-hand,
+.rozetta-editor .c-hand {
+  cursor: pointer;
+}
+.rozetta-translator-tool .c-move,
+.rozetta-editor .c-move {
+  cursor: move;
+}
+.rozetta-translator-tool .c-zoom-in,
+.rozetta-editor .c-zoom-in {
+  cursor: zoom-in;
+}
+.rozetta-translator-tool .c-zoom-out,
+.rozetta-editor .c-zoom-out {
+  cursor: zoom-out;
+}
+.rozetta-translator-tool .c-not-allowed,
+.rozetta-editor .c-not-allowed {
+  cursor: not-allowed;
+}
+.rozetta-translator-tool .c-auto,
+.rozetta-editor .c-auto {
+  cursor: auto;
+}
+.rozetta-translator-tool .d-block,
+.rozetta-editor .d-block {
+  display: block;
+}
+.rozetta-translator-tool .d-inline,
+.rozetta-editor .d-inline {
+  display: inline;
+}
+.rozetta-translator-tool .d-inline-block,
+.rozetta-editor .d-inline-block {
+  display: inline-block;
+}
+.rozetta-translator-tool .d-flex,
+.rozetta-editor .d-flex {
+  display: flex;
+}
+.rozetta-translator-tool .d-inline-flex,
+.rozetta-editor .d-inline-flex {
+  display: inline-flex;
+}
+.rozetta-translator-tool .d-none,
+.rozetta-translator-tool .d-hide,
+.rozetta-editor .d-none,
+.rozetta-editor .d-hide {
+  display: none !important;
+}
+.rozetta-translator-tool .d-visible,
+.rozetta-editor .d-visible {
+  visibility: visible;
+}
+.rozetta-translator-tool .d-invisible,
+.rozetta-editor .d-invisible {
+  visibility: hidden;
+}
+.rozetta-translator-tool .text-hide,
+.rozetta-editor .text-hide {
+  background: transparent;
+  border: 0;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  text-shadow: none;
+}
+.rozetta-translator-tool .text-assistive,
+.rozetta-editor .text-assistive {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.rozetta-translator-tool .divider,
+.rozetta-translator-tool .divider-vert,
+.rozetta-editor .divider,
+.rozetta-editor .divider-vert {
+  display: block;
+  position: relative;
+}
+.rozetta-translator-tool .divider[data-content]::after,
+.rozetta-translator-tool .divider-vert[data-content]::after,
+.rozetta-editor .divider[data-content]::after,
+.rozetta-editor .divider-vert[data-content]::after {
+  background: #fff;
+  color: #bcc3ce;
+  content: attr(data-content);
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0 0.4rem;
+  transform: translateY(-0.65rem);
+}
+.rozetta-translator-tool .divider,
+.rozetta-editor .divider {
+  border-top: 0.05rem solid #f1f3f5;
+  height: 0.05rem;
+  margin: 0.4rem 0;
+}
+.rozetta-translator-tool .divider[data-content],
+.rozetta-editor .divider[data-content] {
+  margin: 0.8rem 0;
+}
+.rozetta-translator-tool .divider-vert,
+.rozetta-editor .divider-vert {
+  display: block;
+  padding: 0.8rem;
+}
+.rozetta-translator-tool .divider-vert::before,
+.rozetta-editor .divider-vert::before {
+  border-left: 0.05rem solid #dadee4;
+  bottom: 0.4rem;
+  content: "";
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 0.4rem;
+  transform: translateX(-50%);
+}
+.rozetta-translator-tool .divider-vert[data-content]::after,
+.rozetta-editor .divider-vert[data-content]::after {
+  left: 50%;
+  padding: 0.2rem 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.rozetta-translator-tool .loading,
+.rozetta-editor .loading {
+  color: transparent !important;
+  min-height: 0.8rem;
+  pointer-events: none;
+  position: relative;
+}
+.rozetta-translator-tool .loading::after,
+.rozetta-editor .loading::after {
+  animation: loading 500ms infinite linear;
+  background: transparent;
+  border: 0.1rem solid #5755d9;
+  border-radius: 50%;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 0.8rem;
+  left: 50%;
+  margin-left: -0.4rem;
+  margin-top: -0.4rem;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  width: 0.8rem;
+  z-index: 1;
+}
+.rozetta-translator-tool .loading.loading-lg,
+.rozetta-editor .loading.loading-lg {
+  min-height: 2rem;
+}
+.rozetta-translator-tool .loading.loading-lg::after,
+.rozetta-editor .loading.loading-lg::after {
+  height: 1.6rem;
+  margin-left: -0.8rem;
+  margin-top: -0.8rem;
+  width: 1.6rem;
+}
+.rozetta-translator-tool .clearfix::after,
+.rozetta-editor .clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.rozetta-translator-tool .float-left,
+.rozetta-editor .float-left {
+  float: left !important;
+}
+.rozetta-translator-tool .float-right,
+.rozetta-editor .float-right {
+  float: right !important;
+}
+.rozetta-translator-tool .p-relative,
+.rozetta-editor .p-relative {
+  position: relative !important;
+}
+.rozetta-translator-tool .p-absolute,
+.rozetta-editor .p-absolute {
+  position: absolute !important;
+}
+.rozetta-translator-tool .p-fixed,
+.rozetta-editor .p-fixed {
+  position: fixed !important;
+}
+.rozetta-translator-tool .p-sticky,
+.rozetta-editor .p-sticky {
+  position: sticky !important;
+}
+.rozetta-translator-tool .p-centered,
+.rozetta-editor .p-centered {
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rozetta-translator-tool .flex-centered,
+.rozetta-editor .flex-centered {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.rozetta-translator-tool .m-0,
+.rozetta-editor .m-0 {
+  margin: 0 !important;
+}
+.rozetta-translator-tool .mb-0,
+.rozetta-editor .mb-0 {
+  margin-bottom: 0 !important;
+}
+.rozetta-translator-tool .ml-0,
+.rozetta-editor .ml-0 {
+  margin-left: 0 !important;
+}
+.rozetta-translator-tool .mr-0,
+.rozetta-editor .mr-0 {
+  margin-right: 0 !important;
+}
+.rozetta-translator-tool .mt-0,
+.rozetta-editor .mt-0 {
+  margin-top: 0 !important;
+}
+.rozetta-translator-tool .mx-0,
+.rozetta-editor .mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.rozetta-translator-tool .my-0,
+.rozetta-editor .my-0 {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.rozetta-translator-tool .m-1,
+.rozetta-editor .m-1 {
+  margin: 0.2rem !important;
+}
+.rozetta-translator-tool .mb-1,
+.rozetta-editor .mb-1 {
+  margin-bottom: 0.2rem !important;
+}
+.rozetta-translator-tool .ml-1,
+.rozetta-editor .ml-1 {
+  margin-left: 0.2rem !important;
+}
+.rozetta-translator-tool .mr-1,
+.rozetta-editor .mr-1 {
+  margin-right: 0.2rem !important;
+}
+.rozetta-translator-tool .mt-1,
+.rozetta-editor .mt-1 {
+  margin-top: 0.2rem !important;
+}
+.rozetta-translator-tool .mx-1,
+.rozetta-editor .mx-1 {
+  margin-left: 0.2rem !important;
+  margin-right: 0.2rem !important;
+}
+.rozetta-translator-tool .my-1,
+.rozetta-editor .my-1 {
+  margin-bottom: 0.2rem !important;
+  margin-top: 0.2rem !important;
+}
+.rozetta-translator-tool .m-2,
+.rozetta-editor .m-2 {
+  margin: 0.4rem !important;
+}
+.rozetta-translator-tool .mb-2,
+.rozetta-editor .mb-2 {
+  margin-bottom: 0.4rem !important;
+}
+.rozetta-translator-tool .ml-2,
+.rozetta-editor .ml-2 {
+  margin-left: 0.4rem !important;
+}
+.rozetta-translator-tool .mr-2,
+.rozetta-editor .mr-2 {
+  margin-right: 0.4rem !important;
+}
+.rozetta-translator-tool .mt-2,
+.rozetta-editor .mt-2 {
+  margin-top: 0.4rem !important;
+}
+.rozetta-translator-tool .mx-2,
+.rozetta-editor .mx-2 {
+  margin-left: 0.4rem !important;
+  margin-right: 0.4rem !important;
+}
+.rozetta-translator-tool .my-2,
+.rozetta-editor .my-2 {
+  margin-bottom: 0.4rem !important;
+  margin-top: 0.4rem !important;
+}
+.rozetta-translator-tool .p-0,
+.rozetta-editor .p-0 {
+  padding: 0 !important;
+}
+.rozetta-translator-tool .pb-0,
+.rozetta-editor .pb-0 {
+  padding-bottom: 0 !important;
+}
+.rozetta-translator-tool .pl-0,
+.rozetta-editor .pl-0 {
+  padding-left: 0 !important;
+}
+.rozetta-translator-tool .pr-0,
+.rozetta-editor .pr-0 {
+  padding-right: 0 !important;
+}
+.rozetta-translator-tool .pt-0,
+.rozetta-editor .pt-0 {
+  padding-top: 0 !important;
+}
+.rozetta-translator-tool .px-0,
+.rozetta-editor .px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.rozetta-translator-tool .py-0,
+.rozetta-editor .py-0 {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+.rozetta-translator-tool .p-1,
+.rozetta-editor .p-1 {
+  padding: 0.2rem !important;
+}
+.rozetta-translator-tool .pb-1,
+.rozetta-editor .pb-1 {
+  padding-bottom: 0.2rem !important;
+}
+.rozetta-translator-tool .pl-1,
+.rozetta-editor .pl-1 {
+  padding-left: 0.2rem !important;
+}
+.rozetta-translator-tool .pr-1,
+.rozetta-editor .pr-1 {
+  padding-right: 0.2rem !important;
+}
+.rozetta-translator-tool .pt-1,
+.rozetta-editor .pt-1 {
+  padding-top: 0.2rem !important;
+}
+.rozetta-translator-tool .px-1,
+.rozetta-editor .px-1 {
+  padding-left: 0.2rem !important;
+  padding-right: 0.2rem !important;
+}
+.rozetta-translator-tool .py-1,
+.rozetta-editor .py-1 {
+  padding-bottom: 0.2rem !important;
+  padding-top: 0.2rem !important;
+}
+.rozetta-translator-tool .p-2,
+.rozetta-editor .p-2 {
+  padding: 0.4rem !important;
+}
+.rozetta-translator-tool .pb-2,
+.rozetta-editor .pb-2 {
+  padding-bottom: 0.4rem !important;
+}
+.rozetta-translator-tool .pl-2,
+.rozetta-editor .pl-2 {
+  padding-left: 0.4rem !important;
+}
+.rozetta-translator-tool .pr-2,
+.rozetta-editor .pr-2 {
+  padding-right: 0.4rem !important;
+}
+.rozetta-translator-tool .pt-2,
+.rozetta-editor .pt-2 {
+  padding-top: 0.4rem !important;
+}
+.rozetta-translator-tool .px-2,
+.rozetta-editor .px-2 {
+  padding-left: 0.4rem !important;
+  padding-right: 0.4rem !important;
+}
+.rozetta-translator-tool .py-2,
+.rozetta-editor .py-2 {
+  padding-bottom: 0.4rem !important;
+  padding-top: 0.4rem !important;
+}
+.rozetta-translator-tool .s-rounded,
+.rozetta-editor .s-rounded {
+  border-radius: 0.1rem;
+}
+.rozetta-translator-tool .s-circle,
+.rozetta-editor .s-circle {
+  border-radius: 50%;
+}
+.rozetta-translator-tool .text-left,
+.rozetta-editor .text-left {
+  text-align: left;
+}
+.rozetta-translator-tool .text-right,
+.rozetta-editor .text-right {
+  text-align: right;
+}
+.rozetta-translator-tool .text-center,
+.rozetta-editor .text-center {
+  text-align: center;
+}
+.rozetta-translator-tool .text-justify,
+.rozetta-editor .text-justify {
+  text-align: justify;
+}
+.rozetta-translator-tool .text-lowercase,
+.rozetta-editor .text-lowercase {
+  text-transform: lowercase;
+}
+.rozetta-translator-tool .text-uppercase,
+.rozetta-editor .text-uppercase {
+  text-transform: uppercase;
+}
+.rozetta-translator-tool .text-capitalize,
+.rozetta-editor .text-capitalize {
+  text-transform: capitalize;
+}
+.rozetta-translator-tool .text-normal,
+.rozetta-editor .text-normal {
+  font-weight: normal;
+}
+.rozetta-translator-tool .text-bold,
+.rozetta-editor .text-bold {
+  font-weight: bold;
+}
+.rozetta-translator-tool .text-italic,
+.rozetta-editor .text-italic {
+  font-style: italic;
+}
+.rozetta-translator-tool .text-large,
+.rozetta-editor .text-large {
+  font-size: 1.2em;
+}
+.rozetta-translator-tool .text-small,
+.rozetta-editor .text-small {
+  font-size: 0.9em;
+}
+.rozetta-translator-tool .text-tiny,
+.rozetta-editor .text-tiny {
+  font-size: 0.8em;
+}
+.rozetta-translator-tool .text-muted,
+.rozetta-editor .text-muted {
+  opacity: 0.8;
+}
+.rozetta-translator-tool .text-ellipsis,
+.rozetta-editor .text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .text-clip,
+.rozetta-editor .text-clip {
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+.rozetta-translator-tool .text-break,
+.rozetta-editor .text-break {
+  hyphens: auto;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.rozetta-translator-tool {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  width: 60%;
+  min-width: 550px;
+  max-width: 650px;
+  height: fit-content;
+  background: #CDD5F2;
+  transform: translateX(-50%);
+  padding: 20px;
+  z-index: 200;
+}
+
+.rozetta-translator-tool .csv-buttons {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.rozetta-translator-tool .csv-button {
+  font-size: 12px!important;
+}
+
+.rozetta-translator-tool .editor-button {
+  width: 120px;
+  height: 50px;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.rozetta-hightlight-selected,
+.rozetta-hightlight:hover {
+  background-color: #ffb700 !important;
+}
+
+.rozetta-translator-item-edited {
+  color: red !important;
+  font-size: bold !important;
+}
+
+.rozetta-editor {
+  position: fixed;
+  left: 50%;
+  bottom: 120px;
+  width: 80%;
+  min-width: 550px;
+  max-width: 1500px;
+  height: 0;
+  overflow: hidden;
+  transform: translateX(-50%);
+  transition: all 300ms 0s ease;
+}
+
+.rozetta-editor.active {
+  position: fixed;
+  left: 50%;
+  bottom: 120px;
+  width: 80%;
+  min-width: 550px;
+  max-width: 1500px;
+  height: 350px;
+  background: #CDD5F2;
+  z-index: 210 !important;
+  transition: all 300ms 0s ease;
+  padding: 5px;
+}
+
+.rozetta-editor h1 {
+  margin: 5px;
+  font-size: 26px;
+  color: #3F50AA;
+}
+
+.rozetta-editor table {
+  width: 100%;
+  height: inherit;
+}
+
+.rozetta-editor table tr:first-of-type {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background: #3F50AA;
+  color: #F5F7FE;
+}
+
+.rozetta-editor .close-editor-button {
+  position: absolute;
+  left: calc(100% - 40px) !important;
+  top: 5px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rozetta-editor .editor-content {
+  display: flex;
+  position: relative;
+  overflow: auto;
+  height: calc(100% - 45px);
+}
+
+.rozetta-editor .editor-content textarea {
+  margin: 5px 0;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.rozetta-editor .editor-content textarea.unmodified {
+  border-color: red;
+}
+
+.rozetta-editor .editor-content textarea:disabled {
+  background-color: #fff;
+  cursor: auto;
+  opacity: 1;
+}
+
+.rozetta-editor .editor-content .confirm-button {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  display: none;
+}
+
+.rozetta-translator-tool .delete-button {
+  position: absolute;
+  bottom: 20px;
+  left: 105%;
+  z-index: 999;
+}
+
+/*# sourceMappingURL=style.css.map */
