@@ -9,7 +9,7 @@
 
 ## ・翻訳管理ツールスクリプト
 
-ファイル名：rozetta-translate.min.js
+ファイル名：rozetta-translate-tool.min.js
 
 開発環境で、本スクリプトを読み込むことで、画面上で翻訳の内容を編集することができます。
 
