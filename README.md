@@ -45,6 +45,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     isRemoveNewLine: オプション。trueの場合は改行(\n)、タブ(\t)、キャリッジリターン(\r)を取り除きます。falseの場合はそのままにします。設定しない場合、デフォルトはtrueになります。
     ignoreNodes: オプション。JSON形式の配列。指定された部分とその中に含んだ全内容は翻訳されません。複数指定可能、複数の場合一つの条件に満たされると翻訳しません（ORロジック）。タグ、id、class名に適用します。例：ignoreNodes='[{"class": "ignore-btn"}, {"id": "title-984"}, {"tag": "h4"}]'の場合は、「class名にignore-btnがある」、「idがtitle-984」、「<h4></h4>タグ」以内のテキストとその中に含んだ全内容は翻訳されません。
     isApplyResultToSameText: オプション。trueの場合は同じの原文を、html内上から一番目の訳文が適用されます。編集があった場合もすべて一番目の編集結果が適用されます。設定しない場合、デフォルトはfalseになります。
+    queryPageKeys: オプション。文字列の配列。クエリパラメータで全く別のページ内容を表示する場合、指定してください。例：ページのURLは「https://sample.com/post?pid=1&key=accesskey」と「https://sample.com/post?pid=2&key=accesskey」がクエリの「pid」でそれぞれ全く違う内容を表示する場合、queryPageKeys='[{"pid"}]'で指定してください。一方、表示内容に影響のないクエリパラメータ「key」は指定しないようにしてください。
 
 
 
