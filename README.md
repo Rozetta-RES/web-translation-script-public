@@ -1,40 +1,32 @@
-# ファイル説明
-
-## ・翻訳スクリプト
+# 翻訳スクリプト
 
 ファイル名：rozetta-translate.min.js
 
-本スクリプトの読み込みだけで、サイトを多言語化にすることができます。
-
-
-## ・訳文編集ツールスクリプト
-
-ファイル名：rozetta-translate-tool.min.js
-
-開発環境で、本スクリプトを読み込むことで、画面上で翻訳の内容を編集することができます。
-
-**一般ユーザーに公開する際に、必ず読み込まないようにしてください。**
-
-
+一行のJSコードで本スクリプトの読み込みだけで、サイトを多言語化にすることができます。
 
 
 # 使い方
 
 ## ・翻訳スクリプトの読み込み方
 
-先ず、jsとcssフォルダをサイトのフォルダにダウンロードしてください。
+先ず、jsフォルダの「rozetta-translate.min.js」をダウンロードしてください。
 
-下記の記述で「翻訳スクリプト」を読み込みます。
+ウェブサイトにアップロードします（ローカルでも可能です）。アップロード先パスをメモしてください。
+
+次に、HTMLファイル（あるいはSPAプロジェクトのエントリーポイントやジェネレータが利用するテンプレートファイル）に下記のスクリプトタグを追記します。生成されたHTMLからスクリプトが参照できるようソースパスにご注意ください。
 
 ```html
 <!-- import translation script -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" data-no-defer=""></script>
-<script src="./js/rozetta-translate.min.js" userKey="YOUR USER KEY" lang="ja" contractId="YOUR CONTRACT ID" accessKey="YOUR ACCESS KEY" secretKey="YOUR SECRET KEY"></script>
+<script src="お客様のアップロード先パス/rozetta-translate.min.js" userKey="お客様のユーザーキー" lang="ja" contractId="お客様の契約ID" accessKey="お客様のアクセスキー" secretKey="お客様のシークレットキー"></script>
 ```
 
 jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省略できます。
 
-利用する際に、契約が必要になります。それぞれの要素を入力してください。
+利用する際に、契約とキーが必要になります。契約の詳細は弊社に問い合わせください。
+
+それぞれの要素を入力して、すぐにご利用いただけます。
+
 
     src: スクリプトのパス。実際のプロジェクトに合わせて調整してください。
     userKey：利用者識別キー。情報は弊社に問い合わせしてください。
@@ -49,8 +41,43 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     languagesExtension: オプション。文字列の配列。デフォルト以外の言語の追加が可能です。例：languagesExtension='[{"language": "fr", "label": "français", "translatingMessage": "Traduction en cours"}]'で、フランス語の追加ができます。languageはISO 639-1コードで指定してください。"label"は選択メニュー上のテキスト。"translatingMessage"は翻訳中、表示するメッセージです。
 
 
+# FAQ
+
+## ・スクリプトを導入するだけで、サイトの多言語化ができますか？
+
+はい、一般的なサイトであれば、「言語選択のメニュー」と「サイトの文字を抽出して翻訳」が自動にできます。
 
 
+##　・ウェブサイトの外観に合わせて設定したいです。
+
+はい、できます。それぞれのクラス名のcssを上書きすればよいです。
+
+言語選択UI全体：rozetta-language-selector
+選択中言語のハイライト：rozetta-language-selector-selected
+選択肢メニュー全体：rozetta-language-selector-menu
+選択肢メニューの一要素：rozetta-language-selector-menu-item
+
+
+##　・翻訳されていない箇所があります。/ 翻訳が動作していません。
+
+ウェブサイトの設計はそれぞれありますので、詳しくは弊社へ問い合わせください。
+
+
+
+
+# 訳文編集ツールの導入（必要に応じて）
+
+
+## ・訳文編集ツールスクリプト
+
+ファイル名：rozetta-translate-tool.min.js
+
+cssファイル：style.css
+
+開発環境で、本スクリプトを読み込むことで、画面上で翻訳の内容を編集することができます。
+
+
+**一般ユーザーに公開する際に、必ず読み込まないようにしてください。**
 
 ## ・訳文編集ツールの読み込み方
 
