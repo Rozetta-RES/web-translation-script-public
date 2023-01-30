@@ -64,6 +64,17 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
 ウェブサイトの設計はそれぞれありますので、詳しくは弊社へ問い合わせください。
 
 
+## ・表示する言語を減らしたい。
+
+CSSでメニューを隠せば減らせます。以下日英のみ表示の（繁中、簡中、タイを隠す）例：
+```html
+<style>
+    .rozetta-language-selector-menu-item:nth-child(3),
+    .rozetta-language-selector-menu-item:nth-child(4),
+    .rozetta-language-selector-menu-item:nth-child(5) { display:none; }
+</style>
+```
+
 
 
 # 訳文編集ツールの導入（必要に応じて）
