@@ -39,7 +39,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     isApplyResultToSameText: オプション。trueの場合は同じの原文を、html内上から一番目の訳文が適用されます。編集があった場合もすべて一番目の編集結果が適用されます。設定しない場合、デフォルトはfalseになります。
     queryPageKeys: オプション。文字列の配列。クエリパラメータで全く別のページ内容を表示する場合、指定してください。例：ページのURLは「https://sample.com/post?pid=1&key=accesskey」と「https://sample.com/post?pid=2&key=accesskey」がクエリの「pid」でそれぞれ全く違う内容を表示する場合、queryPageKeys='[{"pid"}]'で指定してください。一方、表示内容に影響のないクエリパラメータ「key」は指定しないようにしてください。
     languagesExtension: オプション。文字列の配列。デフォルト以外の言語の追加が可能です。例：languagesExtension='[{"language": "fr", "label": "français", "translatingMessage": "Traduction en cours"}]'で、フランス語の追加ができます。languageはISO 639-1コードで指定してください。"label"は選択メニュー上のテキスト。"translatingMessage"は翻訳中、表示するメッセージです。
-    "isDynamicTranslate": オプション。trueの場合はページがロード後に表示されるテキストも翻訳されます。デフォルトはfalseになります。
+    isDynamicTranslate: オプション。trueの場合はページがロード後に表示されるテキストも翻訳されます。デフォルトはfalseになります。
 
 
 # FAQ
