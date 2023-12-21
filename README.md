@@ -9,7 +9,7 @@
 
 # 使い方
 
-## ・翻訳スクリプトの読み込み方
+## ・翻訳スクリプトの読み込み方（ダウンロード）
 
 先ず、jsフォルダの「rozetta-translate.min.js」をダウンロードしてください。
 
@@ -21,6 +21,16 @@
 <!-- import translation script -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" data-no-defer=""></script>
 <script src="お客様のアップロード先パス/rozetta-translate.min.js" userKey="お客様のユーザーキー" lang="ja" contractId="お客様の契約ID" accessKey="お客様のアクセスキー" secretKey="お客様のシークレットキー"></script>
+```
+
+## ・翻訳スクリプトの読み込み方（CDN）
+
+ダウンロードをせず、直接にCDNで読み込むこともできます。
+
+<!-- import translation script -->
+```html
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" data-no-defer=""></script>
+<script src="https://web-translation.rozetta-api.info/2.5.1/js/rozetta-translate.min.js" userKey="お客様のユーザーキー" lang="ja" contractId="お客様の契約ID" accessKey="お客様のアクセスキー" secretKey="お客様のシークレットキー"></script>
 ```
 
 jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省略できます。
@@ -44,7 +54,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     isDynamicTranslate: オプション。trueの場合はページがロード後に表示されるテキストも翻訳されます。デフォルトはfalseになります。
     isIgnorePath: オプション。trueの場合はページに問わず、一致した原文内容が存在すれば、翻訳をかけずにキャッシュで反映します。デフォルトはfalseになります。
     fieldId: オプション。翻訳に適用される分野です。デフォルトは1（一般）です。
-    isAllowPathQuery: オプション。trueの場合、URLのパスに言語パラメータ（ISO 639-1）が含んでいる場合、指定の言語で適用します。例：「https://www.rozetta-sample.jp/en/page1」がURLの場合、パスにenがあるため、言語は英語に適用します。デフォルトはfalseになります。
+    isAllowPathQuery: オプション。trueの場合、URLのパスに言語パラメータ（ISO 639-1）が含んでいる場合、指定の言語で翻訳を適用します。例：「https://www.rozetta-sample.jp/en/page1」がURLの場合、パスにenがあるため、言語は英語で翻訳します。デフォルトはfalseになります。
 
 
 # FAQ
@@ -108,7 +118,7 @@ cssファイル：style.css
 
 **一般ユーザーに公開する際に、決して読み込まないようにしてください。**
 
-## ・訳文編集ツールの読み込み方
+## ・訳文編集ツールの読み込み方（ダウンロード）
 
 「翻訳スクリプト」を読み込んだ上で、さらに下記の記述で「訳文編集ツール」を読み込みます。
 
@@ -125,3 +135,16 @@ cssファイル：style.css
 
 **一般ユーザーに公開する際に、決して読み込まないようにしてください。**
 
+
+## ・訳文編集ツールの読み込み方（CDN）
+
+ダウンロードをせず、直接にCDNで読み込むこともできます。
+
+```html
+<!-- import translation tool script -->
+<link rel="stylesheet" href="https://web-translation.rozetta-api.info/2.5.0/css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.min.js" integrity="sha512-Y8iWYJDo6HiTo5xtml1g4QqHtl/PO1w+dmUpQfQSOTqKNsMhExfyPN2ncNAe9JuJUSKzwK/b6oaNPop4MXzkwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://web-translation.rozetta-api.info/2.5.0/js/rozetta-translate-tool.min.js"></script>
+```
