@@ -229,6 +229,28 @@
   overflow: visible;
   /* 2 */
 }
+
+.rozetta-editor .icon-minus {
+  content: "";
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  backface-visibility: hidden;
+  display: inline-block;
+  font-family: Icons;
+  font-style: normal;
+  font-weight: 400;
+  height: 2px;
+  margin: 0 0.25rem 0 0;
+  opacity: 1;
+  text-align: center;
+  text-decoration: inherit;
+  width: 1.18em;
+  background-color: #fff;
+}
+
 .rozetta-translator-tool a,
 .rozetta-editor a {
   background-color: transparent;
@@ -4130,7 +4152,7 @@
   bottom: 20px;
   left: 50%;
   width: 60%;
-  min-width: 550px;
+  min-width: 575px;
   max-width: 650px;
   height: fit-content;
   background: #CDD5F2;
@@ -4150,7 +4172,7 @@
 }
 
 .rozetta-translator-tool .editor-button {
-  width: 120px;
+  min-width: 120px;
   height: 50px;
   margin: 0 20px;
   font-size: 18px;
@@ -4161,9 +4183,18 @@
   background-color: #ffb700 !important;
 }
 
+.rozetta-image-hightlight-selected,
+.rozetta-image-hightlight:hover {
+  outline: 2px solid red !important;
+}
+
 .rozetta-translator-item-edited {
   color: red !important;
   font-size: bold !important;
+}
+
+img.rozetta-translator-item-edited {
+  outline: 2px solid red !important;
 }
 
 .rozetta-editor {
@@ -4220,6 +4251,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rozetta-editor .close-editor-button i::before  {
+  background: #FFF!important;
 }
 
 .rozetta-editor .editor-content {
