@@ -1,6 +1,8 @@
 # 翻訳スクリプト
 
 ファイル名：rozetta-translate.min.js
+バージョン：2.5.1
+リンク：https://web-translation.rozetta-api.info/2.5.1/js/rozetta-translate.min.js
 
 一行のJSコードで本スクリプトの読み込みだけで、サイトを多言語化にすることができます。
 
@@ -33,7 +35,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     contractId: 契約ID。情報は弊社に問い合わせしてください。
     accessKey: アクセスキー。情報は弊社に問い合わせしてください。
     secretKey: シークレットキー。情報は弊社に問い合わせしてください。
-    lang: オプション。サイトの元々の言語です。設定しない場合、デフォルトは日本語(ja)になります。
+    lang: オプション。サイトの元々の言語です（ISO 639-1）。設定しない場合、デフォルトは日本語(ja)になります。
     isRemoveNewLine: オプション。trueの場合は改行(\n)、タブ(\t)、キャリッジリターン(\r)を取り除きます。falseの場合はそのままにします。設定しない場合、デフォルトはtrueになります。
     ignoreNodes: オプション。JSON形式の配列。指定された部分とその中に含んだ全内容は翻訳されません。複数指定可能、複数の場合一つの条件に満たされると翻訳しません（ORロジック）。タグ、id、class名に適用します。例：ignoreNodes='[{"class": "ignore-btn"}, {"id": "title-984"}, {"tag": "h4"}]'の場合は、「class名にignore-btnがある」、「idがtitle-984」、「<h4></h4>タグ」以内のテキストとその中に含んだ全内容は翻訳されません。
     isApplyResultToSameText: オプション。trueの場合は同じの原文を、html内上から一番目の訳文が適用されます。編集があった場合もすべて一番目の編集結果が適用されます。設定しない場合、デフォルトはfalseになります。
@@ -41,6 +43,8 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     languagesExtension: オプション。文字列の配列。デフォルト以外の言語の追加が可能です。例：languagesExtension='[{"language": "fr", "label": "français", "translatingMessage": "Traduction en cours"}]'で、フランス語の追加ができます。languageはISO 639-1コードで指定してください。"label"は選択メニュー上のテキスト。"translatingMessage"は翻訳中、表示するメッセージです。
     isDynamicTranslate: オプション。trueの場合はページがロード後に表示されるテキストも翻訳されます。デフォルトはfalseになります。
     isIgnorePath: オプション。trueの場合はページに問わず、一致した原文内容が存在すれば、翻訳をかけずにキャッシュで反映します。デフォルトはfalseになります。
+    fieldId: オプション。翻訳に適用される分野です。デフォルトは1（一般）です。
+    isAllowPathQuery: オプション。trueの場合、URLのパスに言語パラメータ（ISO 639-1）が含んでいる場合、指定の言語で適用します。例：「https://www.rozetta-sample.jp/en/page1」がURLの場合、パスにenがあるため、言語は英語に適用します。デフォルトはfalseになります。
 
 
 # FAQ
@@ -92,6 +96,8 @@ CSSでメニューを隠せば減らせます。以下日英のみ表示の例�
 ## ・訳文編集ツールスクリプト
 
 ファイル名：rozetta-translate-tool.min.js
+バージョン：2.5.0
+リンク：https://web-translation.rozetta-api.info/2.5.0/js/rozetta-translate-tool.min.js
 
 cssファイル：style.css
 
