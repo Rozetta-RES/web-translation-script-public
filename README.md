@@ -2,9 +2,9 @@
 
 ファイル名：rozetta-translate.min.js
 
-バージョン：2.5.1
+バージョン：2.6.0
 
-リンク：https://web-translation.rozetta-api.info/2.5.1/js/rozetta-translate.min.js
+リンク：https://web-translation.rozetta-api.info/2.6.0/js/rozetta-translate.min.js
 
 
 一行のJSコードで本スクリプトの読み込みだけで、サイトを多言語化にすることができます。
@@ -110,7 +110,7 @@ CSSでメニューを隠せば減らせます。以下日英のみ表示の例�
 
 ファイル名：rozetta-translate-tool.min.js
 
-バージョン：2.5.0
+バージョン：2.6.2
 
 リンク：https://web-translation.rozetta-api.info/2.5.0/js/rozetta-translate-tool.min.js
 
@@ -154,5 +154,5 @@ cssファイル：style.css
 <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
 <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.min.js" integrity="sha512-Y8iWYJDo6HiTo5xtml1g4QqHtl/PO1w+dmUpQfQSOTqKNsMhExfyPN2ncNAe9JuJUSKzwK/b6oaNPop4MXzkwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://web-translation.rozetta-api.info/2.5.0/js/rozetta-translate-tool.min.js"></script>
+<script src="https://web-translation.rozetta-api.info/2.6.2/js/rozetta-translate-tool.min.js"></script>
 ```
