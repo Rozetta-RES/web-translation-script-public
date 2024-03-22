@@ -33,7 +33,7 @@
 ```html
 <!-- import translation script -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" data-no-defer=""></script>
-<script src="https://web-translation.rozetta-api.info/2.5.1/js/rozetta-translate.min.js" userKey="お客様のユーザーキー" lang="ja" contractId="お客様の契約ID" accessKey="お客様のアクセスキー" secretKey="お客様のシークレットキー"></script>
+<script src="https://web-translation.rozetta-api.info/2.6.0/js/rozetta-translate.min.js" userKey="お客様のユーザーキー" lang="ja" contractId="お客様の契約ID" accessKey="お客様のアクセスキー" secretKey="お客様のシークレットキー"></script>
 ```
 
 jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省略できます。
@@ -112,7 +112,7 @@ CSSでメニューを隠せば減らせます。以下日英のみ表示の例�
 
 バージョン：2.6.2
 
-リンク：https://web-translation.rozetta-api.info/2.5.0/js/rozetta-translate-tool.min.js
+リンク：https://web-translation.rozetta-api.info/2.6.2/js/rozetta-translate-tool.min.js
 
 
 cssファイル：style.css
