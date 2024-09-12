@@ -2,9 +2,9 @@
 
 ファイル名：rozetta-translate.min.js
 
-バージョン：2.6.5
+バージョン：2.6.6
 
-リンク：https://web-translation.rozetta-api.info/2.6.5/js/rozetta-translate.min.js
+リンク：https://web-translation.rozetta-api.info/2.6.6/js/rozetta-translate.min.js
 
 
 一行のJSコードで本スクリプトの読み込みだけで、サイトを多言語化にすることができます。
@@ -33,7 +33,7 @@
 ```html
 <!-- import translation script -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" data-no-defer=""></script>
-<script src="https://web-translation.rozetta-api.info/2.6.5/js/rozetta-translate.min.js" userKey="お客様のユーザーキー" lang="ja" contractId="お客様の契約ID" accessKey="お客様のアクセスキー" secretKey="お客様のシークレットキー"></script>
+<script src="https://web-translation.rozetta-api.info/2.6.6/js/rozetta-translate.min.js" userKey="お客様のユーザーキー" lang="ja" contractId="お客様の契約ID" accessKey="お客様のアクセスキー" secretKey="お客様のシークレットキー"></script>
 ```
 
 jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省略できます。
@@ -58,6 +58,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     isIgnorePath: オプション。trueの場合はページに問わず、一致した原文内容が存在すれば、翻訳をかけずにキャッシュで反映します。デフォルトはfalseになります。
     fieldId: オプション。翻訳に適用される分野です。デフォルトは1（一般）です。
     isAllowPathQuery: オプション。trueの場合、URLのパスに言語パラメータ（ISO 639-1）が含んでいる場合、指定の言語で翻訳を適用します。例：「https://www.rozetta-sample.jp/en/page1」がURLの場合、パスにenがあるため、言語は英語で翻訳します。デフォルトはfalseになります。
+    menuTargetId: オプション。デフォルトのメニューを生成する箇所が指定できます。例：menuTargetId="myMenu"　で指定すると、メニューのhtmlは「idがmyMenuの要素内の一番最後」に生成されます。デフォルトはbody要素の最後に生成されます。
 
 
 # FAQ
@@ -69,12 +70,39 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
 
 **・ウェブサイトの外観に合わせて設定したいです。**
 
-はい、できます。それぞれのクラス名のcssを上書きすればよいです。
+はい、できます。それぞれのクラス名のcssを上書きで気に入りのスタイルで設定できます。
 
 言語選択UI全体：rozetta-language-selector
+
 選択中言語のハイライト：rozetta-language-selector-selected
+
 選択肢メニュー全体：rozetta-language-selector-menu
+
 選択肢メニューの一要素：rozetta-language-selector-menu-item
+
+
+また、リンクのクエリーパラメータが正しければ、自力でメニューを作成することもできます。
+
+例：
+```html
+<body>
+  <!-- 任意の場所 -->
+  <div class="my-language-menu">
+    <!-- ホームに遷移 -->
+    <a class="my-language-item" href="/">日本語</a>
+    <!-- 英語のホームに遷移 -->
+    <a class="my-language-item" href="/?language=en">English</a>
+    <!-- 簡体中国語のpage1に遷移 -->
+    <a class="my-language-item" href="/page1?language=zh-CN">简体中文</a>
+    <!-- 繫体中国語のpage2に遷移 -->
+    <a class="my-language-item" href="/page2?language=zh-TW">繁體中文</a>
+    <!-- タイ語のpage2に遷移 -->
+    <a class="my-language-item" href="/page2?language=th">ไทย</a>
+  </div>
+  ...
+</body>
+```
+
 
 
 **・翻訳されていない箇所があります。/ 翻訳が動作していません。**
