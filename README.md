@@ -58,7 +58,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     isIgnorePath: オプション。trueの場合はページに問わず、一致した原文内容が存在すれば、翻訳をかけずにキャッシュで反映します。デフォルトはfalseになります。
     fieldId: オプション。翻訳に適用される分野です。デフォルトは1（一般）です。
     isAllowPathQuery: オプション。trueの場合、URLのパスに言語パラメータ（ISO 639-1）が含んでいる場合、指定の言語で翻訳を適用します。例：「https://www.rozetta-sample.jp/en/page1」がURLの場合、パスにenがあるため、言語は英語で翻訳します。デフォルトはfalseになります。
-    menuTargetId: オプション。デフォルトのメニューを生成する箇所が指定できます。例：menuTargetId="myMenu"　で指定すると、メニューのhtmlは「idがmyMenuの要素内の一番最後」に生成されます。デフォルトはbodyの最後に生成されます。
+    menuTargetId: オプション。デフォルトのメニューを生成する箇所が指定できます。例：menuTargetId="myMenu"　で指定すると、メニューのhtmlは「idがmyMenuの要素内の一番最後」に生成されます。デフォルトはbody要素の最後に生成されます。
 
 
 # FAQ
