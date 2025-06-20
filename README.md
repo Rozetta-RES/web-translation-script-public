@@ -2,9 +2,9 @@
 
 ファイル名：rozetta-translate.min.js
 
-バージョン：2.7.2
+バージョン：2.7.3
 
-リンク：https://web-translation.rozetta-api.info/2.7.2/js/rozetta-translate.min.js
+リンク：https://web-translation.rozetta-api.info/2.7.3/js/rozetta-translate.min.js
 
 
 一行のJSコードで本スクリプトの読み込みだけで、サイトを多言語化にすることができます。
@@ -53,6 +53,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     ignoreNodes: オプション。JSON形式の配列。指定された部分とその中に含んだ全内容は翻訳されません。複数指定可能、複数の場合一つの条件に満たされると翻訳しません（ORロジック）。タグ、id、class名に適用します。例：ignoreNodes='[{"class": "ignore-btn"}, {"id": "title-984"}, {"tag": "h4"}]'の場合は、「class名にignore-btnがある」、「idがtitle-984」、「<h4></h4>タグ」以内のテキストとその中に含んだ全内容は翻訳されません。
     isApplyResultToSameText: オプション。trueの場合は同じの原文を、html内上から一番目の訳文が適用されます。編集があった場合もすべて一番目の編集結果が適用されます。設定しない場合、デフォルトはfalseになります。
     queryPageKeys: オプション。文字列の配列。クエリパラメータで全く別のページ内容を表示する場合、指定してください。例：ページのURLは「https://sample.com/post?pid=1&key=accesskey」と「https://sample.com/post?pid=2&key=accesskey」がクエリの「pid」でそれぞれ全く違う内容を表示する場合、queryPageKeys='[{"pid"}]'で指定してください。一方、表示内容に影響のないクエリパラメータ「key」は指定しないようにしてください。
+    defaultLanguagesExtension: オプション。文字列の配列。デフォルトの言語（英語、簡体中国語、繁体中国語、タイ語）が設定可能です。例：defaultLanguagesExtension='["en","zh-TW"]'で、簡体中国語とタイ語が削除されます。
     languagesExtension: オプション。文字列の配列。デフォルト以外の言語の追加が可能です。例：languagesExtension='[{"language": "fr", "label": "français", "translatingMessage": "Traduction en cours"}]'で、フランス語の追加ができます。languageはISO 639-1コードで指定してください。"label"は選択メニュー上のテキスト。"translatingMessage"は翻訳中、表示するメッセージです。
     isDynamicTranslate: オプション。trueの場合はページがロード後に表示されるテキストも翻訳されます。デフォルトはfalseになります。
     isIgnorePath: オプション。trueの場合はページに問わず、一致した原文内容が存在すれば、翻訳をかけずにキャッシュで反映します。デフォルトはfalseになります。
@@ -61,6 +62,7 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
     menuTargetId: オプション。デフォルトのメニューを生成する箇所が指定できます。例：menuTargetId="myMenu"　で指定すると、メニューのhtmlは「idがmyMenuの要素内の一番最後」に生成されます。デフォルトはbody要素の最後に生成されます。
     t4ooCategoryId: オプション。T-4OOエンジン利用時のみ有効。対訳ID。複数選択する場合はIDにカンマを入れて連結します。(例)101,252,301
     t4ooGlossaryId: オプション。T-4OOエンジン利用時のみ有効。統一用語ID。複数選択する場合はIDにカンマを入れて連結します。(例)101,252,301
+    
 
 
 # FAQ
@@ -114,18 +116,10 @@ jqueryが既に読み込んだ場合、二行目のjqueryスクリプトは省�
 
 **・表示する言語を減らしたい。**
 
-CSSでメニューを隠せば減らせます。以下日英のみ表示の例（簡中、繁中、タイを隠す）：
-```html
-<style>
-    /* zh-CN (簡体中国語) */
-    .rozetta-language-selector-menu-item:nth-child(3),
-    /* zh-TW (繁体中国語) */
-    .rozetta-language-selector-menu-item:nth-child(4),
-    /* th (タイ語)*/
-    .rozetta-language-selector-menu-item:nth-child(5) { display:none; }
-</style>
-```
+defaultLanguagesExtensionのパラメータで言語が減らせます。以下日英のみ表示の例（簡中、繁中、タイを隠す）：
 
+defaultLanguagesExtension='["en"]'
+（v2.7.3以降）
 
 
 # 訳文編集ツールの導入（必要に応じて）
